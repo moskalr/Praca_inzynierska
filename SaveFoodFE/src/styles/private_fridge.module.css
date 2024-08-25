@@ -1,0 +1,143 @@
+.main-paper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-table-container {
+  max-height: 550px;
+}
+
+.collapseable-table-cell {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.create-fridge-button {
+  color: white;
+  display: flex;
+  padding: 8px;
+  background-color: #6f7ead;
+}
+
+.create-fridge-button:hover {
+  background-color: #8590b3;
+}
+
+.create-fridge-button-text {
+  flex-grow: 1;
+  margin-left: 5vw;
+}
+
+.create-fridge-button-icon {
+  margin-right: 5vw;
+}
+
+.dialog-action > * {
+  color: #3039a3;
+}
+
+.exit-button {
+  margin: 1vw;
+}
+
+.fridge-button {
+  display: flex;
+  padding: 8px;
+  background-color: #6f7ead;
+}
+
+.fridge-button:hover {
+  background-color: #8590b3;
+}
+
+.achived-fridge-button {
+  background-color: #e11e1e;
+  color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.achived-fridge-button:hover {
+  background-color: #9b2828;
+}
+
+.achived-fridge-info {
+  background-color: #c92f2f;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.fridge-title {
+  text-align: center;
+  margin: 1vw;
+}
+
+.report-icon-left {
+  margin-right: 5px;
+}
+
+.report-icon-right {
+  margin-left: 5px;
+}
+
+.paper-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cad0e0;
+}
+
+.details-tab > * {
+  border-bottom: unset;
+  width: 100vw;
+  background-color: #f4f4fb;
+}
+
+.details-tab-first-text {
+  max-width: 30vw;
+}
+
+.details-tab-icon {
+  max-width: 5vw;
+}
+
+.role-select-form {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.list-first-cell {
+  z-index: 0;
+}
+
+.list-medium-cell {
+  max-width: 70px;
+  z-index: 0;
+}
+
+.list-short-cell {
+  max-width: 20px;
+  z-index: 0;
+}
+
+.select-category {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.select-product-status {
+  min-width: 50%;
+  margin-left: 5%;
+}

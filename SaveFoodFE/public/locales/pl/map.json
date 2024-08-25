@@ -1,0 +1,9 @@
+{
+  "map": {
+    "grade": "Ocena: ",
+    "button": {
+      "submitLocation": "Potwierdź lokalizację"
+    }
+  },
+  "grade": "Ocena: "
+}

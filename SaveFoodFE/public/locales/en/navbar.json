@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "title": "Save Food",
+    "profile": "Profile",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Log out",
+    "register": "Register",
+    "change_role": "Change role",
+    "private_fridges": "Private fridges",
+    "social_fridges": "Social fridges",
+    "role": {
+      "select_title": "Select the role to switch to:",
+      "user": "User",
+      "volunteer": "Volunteer",
+      "admin": "Administrator",
+      "moderator": "Moderator",
+      "manager": "Manager"
+    },
+    "language": {
+      "polish": "Polish",
+      "english": "English",
+      "error_message": {
+        "refreshToken": "An error occurred, please log in again.",
+        "sameLanguage": "This is your current language.",
+        "error": "An error occurred while changing the language."
+      },
+      "success": "The language has been changed."
+    },
+    "logged": "Logged in as:",
+    "roles": {
+      "client_user": "User",
+      "client_volunteer": "Volunteer",
+      "client_guest": "Guest",
+      "client_admin": "Administrator",
+      "client_manager": "Manager",
+      "client_moderator": "Moderator"
+    },
+    "eaa": {
+      "title": "Events and announcements",
+      "events": "Events",
+      "announcements": "Announcements",
+      "userPanel": "User panel"
+    }
+  },
+  "logout": {
+    "error_message": "An error occurred while logging out.",
+    "info_message": "You have been successfully logged out."
+  },
+  "button": {
+    "cancel": "CANCEL",
+    "ok": "OK"
+  }
+}

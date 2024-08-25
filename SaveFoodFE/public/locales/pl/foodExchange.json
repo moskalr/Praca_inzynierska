@@ -1,0 +1,1019 @@
+{
+  "AxiosMessages": {},
+  "ValidationMessages": {
+    "Title": {
+      "required": "Tytuł jest wymagany",
+      "minlength": "Tytuł musi mieć co najmniej 5 znaki",
+      "maxlength": "Tytuł może mieć maksymalnie 50 znaków"
+    },
+    "Description": {
+      "required": "Opis jest wymagany",
+      "minlength": "Opis musi mieć co najmniej 10 znaków",
+      "maxlength": "Opis może mieć maksymalnie 300 znaków"
+    },
+    "Category": {
+      "required": "Wybierz kategorię"
+    },
+    "MapAddress": {
+      "Street": {
+        "required": "Ulica jest wymagana",
+        "maxlength": "Ulica może mieć maksymalnie 64 znaki"
+      },
+      "StreetNumber": {
+        "required": "Numer jest wymagany",
+        "pattern": "Numer musi być w formacie liczby lub liczby z literą"
+      },
+      "City": {
+        "required": "Miasto jest wymagane",
+        "maxlength": "Miasto może mieć maksymalnie 64 znaki"
+      },
+      "PostalCode": {
+        "required": "Kod pocztowy jest wymagany",
+        "pattern": "Kod pocztowy musi być w formacie 00-000"
+      }
+    }
+  },
+  "Tabs": {
+    "TabsTitle": {
+      "ownProducts": "Twoje produkty",
+      "allProducts": "Lista produktów",
+      "ownExchanges": "Twoje rezerwacje",
+      "ownDeliveries": "Twoje dostawy",
+      "allDeliveries": "Wszystkie dostawy",
+      "allExchanges": "Wszystkie rezerwacje"
+    },
+    "AllExchanges": {
+      "InfinityScroll": {
+        "noMoreProducts": "To już wszystkie rezerwacje",
+        "noItems": "Nie ma żadnych rezerwacji"
+      },
+      "ExchangeCard": {
+        "Requests": {
+          "CancelReservation": {
+            "success": "Pomyślnie unięto rezerwację produktu",
+            "Error": {
+              "general": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.account.self_action": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.delivery_to_user.account_not_participated": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.exchange.account_not_participated": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.account.not_found": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.exchange.not_found": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.product.not_found": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.product.is_exchanged": "Wymiana została zakończona",
+              "exception.product.is_cancelled": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.product.is_hidden": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.exchange.account_last_reservation_product": "Coś poszło nie tak podczas usuwania rezerwacji produktu",
+              "exception.outdated_data": "Dane rezerwacji są nieaktualne"
+            }
+          },
+          "FetchReservation": {
+            "success": "Pomyślnie zaktualizowano rezerwację",
+            "Error": {
+              "general": "Coś poszło nie tak podczas aktualizacji rezerwacji",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas aktualizacji rezerwacji",
+              "exception.exchange.not_found": "Coś poszło nie tak podczas aktualizacji rezerwacji"
+            }
+          },
+          "ConfirmReceiptProduct": {
+            "success": "Zatwierdzono odbiór produktu",
+            "Error": {
+              "general": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.exchange.not_found": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.account.self_action": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.delivery_to_user.account_not_participated": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.exchange.account_not_participated": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.account.not_found": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.product.not_found": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.product.is_exchanged": "Wymiana została już zakończona",
+              "exception.product.is_cancelled": "Produkt jest zaarchiwizowany",
+              "exception.product.is_hidden": "Produkt jest ukryty",
+              "exception.exchange.account_last_reservation_product": "Coś poszło nie tak podczas zatwierdzania odbioru produktu",
+              "exception.outdated_data": "Dane rezerwacji są nieaktualne"
+            }
+          }
+        },
+        "Rating": {
+          "Requests": {
+            "RateDelivery": {
+              "success": "Pomyślnie oceniono dostawę produktu",
+              "Error": {
+                "general": "Coś poszło nie tak podczas oceniania dostawy produktu",
+                "exception.unhandled_exception": "Coś poszło nie tak podczas oceniania dostawy produktu",
+                "exception.delivery.to.user.not_found": "Coś poszło nie tak podczas oceniania dostawy produktu",
+                "exception.account.not_found": "Coś poszło nie tak podczas oceniania dostawy produktu",
+                "exception.account.has_been_rated_delivery": "Uzytkownik został już oceniony w tej dostawie",
+                "exception.exchange.not_completed": "Nie możesz ocenić dostawy, która nie została zakończona",
+                "exception.delivery_to_user.not_completed": "Nie możesz ocenić dostawy, która nie została zakończona",
+                "exception.delivery_to_user.account_not_participated": "Konto nie brało udziału w dostawie",
+                "exception.account.self_action": "Nie możesz wykonać tej operacji na swoim koncie",
+                "exception.outdated_data": "Dane są nieaktualne"
+              }
+            },
+            "RateExchange": {
+              "success": "Pomyślnie oceniono wymianę produktu",
+              "Error": {
+                "general": "Coś poszło nie tak podczas oceniania wymiany produktu",
+                "exception.unhandled_exception": "Coś poszło nie tak podczas oceniania wymiany produktu",
+                "exception.exchange.not_found": "Coś poszło nie tak podczas oceniania wymiany produktu",
+                "exception.account.not_found": "Coś poszło nie tak podczas oceniania wymiany produktu",
+                "exception.exchange.account_has_been_rated_exchange": "Uzytkownik został już oceniony w tej wymianie",
+                "exception.exchange.account_not_participated": "Konto nie brało udziału w wymianie",
+                "exception.account.self_action": "Nie możesz wykonać tej operacji na swoim koncie",
+                "exception.exchange.not_completed": "Nie możesz ocenić wymiany, która nie została zakończona",
+                "exception.exchange.is_not_pending_delivery": "Nie możesz ocenić wymiany, jeżeli nie odebrano produktu",
+                "exception.outdated_data": "Dane są nieaktualne"
+              }
+            },
+            "GetAccount": {
+              "Error": {
+                "general": "Coś poszło nie tak podczas pobierania dostawy do oceny",
+                "exception.unhandled_exception": "Coś poszło nie tak podczas pobierania dostawy do oceny",
+                "exception.delivery.to.user.not_found": "Coś poszło nie tak podczas pobierania dostawy do oceny",
+                "exception.outdated_data": "Dane są nieaktualne"
+              }
+            }
+          },
+          "ratingExchange": "Oceniasz użytkownika użytkownika, od którego odebrałeś produkt",
+          "ratingDelivery": "Oceniasz użytkownika użytkownika, który dostarczył Ci produkt",
+          "rateButton": "Oceń",
+          "rateUser": "Oceniany użytkownik",
+          "rate": "Ocena"
+        },
+        "DeliveryStates": {
+          "deliveryState": "Status dostawy",
+          "WAITING_FOR_VOLUNTEER": "Oczekujący na wolontariusza",
+          "COMPLETED": "Zakończona",
+          "RESERVED": "Zarezerwowana"
+        },
+        "confirmReceiptDeliveryButton": "Potwierdź odbiór",
+        "detailsButton": "Szczegóły",
+        "confirmReceiptButton": "Potwierdź odbiór",
+        "ratingDeliveries": "Oceń dostawę",
+        "ratingExchange": "Oceń wymianę",
+        "productDetails": "Szczegóły produktu",
+        "delvieryDetails": "Szczegóły dostawy",
+        "exchangeDetails": "Szczegóły wymiany",
+        "DetailsCardProduct": {
+          "adress": "Adres",
+          "street": "Ulica",
+          "number": "Numer",
+          "city": "Miasto",
+          "postalCode": "Kod pocztowy",
+          "TypeReservation": {
+            "title": "Rodzaj rezerwacji",
+            "typeOfReceipt": "Odbiór osobisty",
+            "delivery": "Odbiór oraz dostawa poprzez wolontariusza"
+          },
+          "reservationTitle": "Rezerwacja produktu: ",
+          "productDetails": "Szczegóły produktu",
+          "delvieryDetails": "Szczegóły dostawy",
+          "exchangeDetails": "Szczegóły rezerwacji",
+          "from": "Od",
+          "to": "Do",
+          "somethingWentWrong": "Coś poszło nie tak",
+          "describe": "Opis",
+          "category": "Kategoria",
+          "expirationDate": "Data ważności",
+          "foodDonor": "Oddający",
+          "productionDate": "Data produkcji",
+          "homemadeDate": "Data przygotowania",
+          "receiptDate": "Data odbioru",
+          "productState": "Stan produktu",
+          "receiptDateFrom": "Data odbioru od dnia",
+          "receiptDateTo": "Data odbioru do dnia",
+          "receiptHourFrom": "Data odbioru od godziny",
+          "receiptHourTo": "Data odbioru do godziny",
+          "foodDonorRating": "Ocena oddającego",
+          "foodDeliveryRating": "Ocena dostawcy",
+          "foodDelivery": "Dostawca",
+          "foodRecipient": "Odbiorca",
+          "foodRecipientRating": "Ocena odbiorcy",
+          "foodProductionDate": "Data produkcji"
+        },
+        "ProductStates": {
+          "productState": "Status produktu",
+          "VISIBLE": "Widoczny",
+          "HIDDEN": "Ukryty",
+          "RESERVED": "Zarezerwowany",
+          "EXCHANGED": "Oddany"
+        },
+        "ExchangeStates": {
+          "exchangeState": "Status wymiany",
+          "WAITING_FOR_RESERVED_DELIVERY": "Oczekujący na wolontariusza",
+          "COMPLETED": "Zakończona",
+          "WAITING_FOR_RECEIPT_PRODUCT": "Oczekujący na odbiór produktu",
+          "AWAITING": "Brak rezerwacji",
+          "WAITING_FOR_PENDING_DELIVERIES": "W trakcie dostarczania produktu"
+        },
+        "ProductionType": {
+          "productionType": "Typ produkcji",
+          "HOMEMADE": "Domowej roboty",
+          "PURCHASED": "Zakupiony"
+        },
+        "Categories": {
+          "vegetables": "Warzywa",
+          "fruits": "Owoce",
+          "meat": "Mięso",
+          "dairy": "Nabiał",
+          "sweets": "Słodycze",
+          "drinks": "Napoje",
+          "fish": "Ryby",
+          "other": "Inne",
+          "bread": "Pieczywo"
+        }
+      }
+    },
+    "ProductCard": {
+      "Requests": {
+        "Visibility": {
+          "success": "Produkt pomyślnie został ukryty",
+          "Error": {
+            "general": "Coś poszło nie tak podczas ukrywania produktu",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas ukrywania produktu",
+            "exception.product.not_found": "Zmieniany produkt nie został znaleziony",
+            "exception.product.is_exchanged": "Produkt został wymieniony",
+            "exception.product.is_cancelled": "Produkt został zarchiwizowany",
+            "exception.product.is_reserved": "Produkt jest obecnie zarezerwowany",
+            "exception.product.has_that_state": "Produkt jest już ukryty",
+            "exception.product.is_hidden": "Produkt jest już ukryty",
+            "exception.exchange_pending_deliveries": "Produkt jest obecnie w trakcie dostarczania",
+            "exception.product.owner": "Nie możesz ukryć produktu, który nie należy do Ciebie",
+            "exception.outdated_data": "Produkt jest nieaktualny"
+          }
+        },
+        "Hidden": {
+          "success": "Produkt pomyślnie został uwidoczniony",
+          "Error": {
+            "general": "Coś poszło nie tak podczas uwidaczniania produktu",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas uwidaczniania produktu",
+            "exception.product.not_found": "Zmieniany produkt nie został znaleziony",
+            "exception.product.is_exchanged": "Produkt został wymieniony",
+            "exception.product.is_cancelled": "Produkt został zarchiwizowany",
+            "exception.product.is_reserved": "Produkt jest obecnie zarezerwowany",
+            "exception.product.has_that_state": "Produkt jest już widoczny",
+            "exception.product.is_hidden": "Produkt jest ukryty",
+            "exception.exchange_pending_deliveries": "Produkt jest obecnie w trakcie dostarczania",
+            "exception.product.owner": "Nie możesz uwidocznić produktu, który nie należy do Ciebie",
+            "exception.outdated_data": "Produkt jest nieaktualny"
+          }
+        },
+        "ConfirmReceipt": {
+          "success": "Pomyślnie potwierdzono odbiór produktu",
+          "Error": {
+            "general": "Coś poszło nie tak podczas potwierdzania odbioru produktu",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas potwierdzania odbioru produktu",
+            "exception.product.not_found": "Produkt nie został znaleziony",
+            "exception.product.is_exchanged": "Produkt został wymieniony",
+            "exception.product.is_cancelled": "Produkt został zarchiwizowany",
+            "exception.product.is_reserved": "Coś poszło nie tak podczas potwierdzania odbioru produktu",
+            "exception.product.has_that_state": "Odbiór produktu został już potwierdzony",
+            "exception.product.is_hidden": "Produkt jest ukryty",
+            "exception.exchange_pending_deliveries": "Coś poszło nie tak podczas potwierdzania odbioru produktu",
+            "exception.product.owner": "Nie możesz ukryć produktu, który nie należy do Ciebie",
+            "exception.outdated_data": "Produkt jest nieaktualny"
+          }
+        },
+        "RemoveProduct": {
+          "success": "Pomyślnie zarchiwizowano produktu",
+          "Error": {
+            "general": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.not_found": "Produkt nie został znaleziony",
+            "exception.product.is_exchanged": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.is_cancelled": "Produkt został już zarchiwizowany",
+            "exception.product.is_reserved": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.has_that_state": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.is_hidden": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.exchange_pending_deliveries": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.owner": "Nie możesz zarchwizować produktu, który nie należy do Ciebie",
+            "exception.outdated_data": "Produkt jest nieaktualny"
+          }
+        },
+        "FetchProduct": {
+          "success": "Pomyślnie zaktualizowano produkt",
+          "Error": {
+            "general": "Coś poszło nie tak podczas aktualizacji produktu",
+            "exception.product.not_found": "Produkt nie został znaleziony",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas aktualizacji produktu"
+          }
+        }
+      },
+      "confirmReceiptButton": "Potwierdź odbiór",
+      "RatingExchangeDialog": {
+        "title": "Oceń wymianę",
+        "rateButton": "Oceń"
+      },
+      "reserveButton": "Zarezerwuj",
+      "detailsButton": "Szczegóły",
+      "DetailsCardProduct": {
+        "Requests": {
+          "EditProduct": {
+            "success": "Produkt zaktualizowano produkt",
+            "Error": {
+              "general": "Coś poszło nie tak podczas aktualizacji produktu",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas aktualizacji produktu",
+              "exception.product.not_found": "Coś poszło nie tak podczas aktualizacji produktu",
+              "exception.product.owner": "Nie możesz aktualizować produktu, który nie należy do Ciebie",
+              "exception.product.is_reserved": "Produkt jest zarezerwowany",
+              "exception.product.is_exchanged": "Produkt został juz wymieniony",
+              "exception.outdated_data": "Produkt jest nieaktualny"
+            }
+          },
+          "FetchProduct": {
+            "Error": {
+              "general": "Coś poszło nie tak podczas pobrania produktu",
+              "exception.product.not_found": "Coś poszło nie tak podczas pobrania produktu",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas pobrania produktu"
+            }
+          },
+          "ActulizationProduct": {
+            "success": "Pomyślnie zaktualizowano produkt",
+            "Error": {
+              "general": "Coś poszło nie tak podczas aktualizacji produktu",
+              "exception.product.not_found": "Coś poszło nie tak podczas aktualizacji produktu",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas aktualizacji produktu"
+            }
+          }
+        },
+        "adress": "Adres",
+        "street": "Ulica",
+        "number": "Numer",
+        "city": "Miasto",
+        "postalCode": "Kod pocztowy",
+
+        "productDetails": "Szczegóły produktu",
+        "delvieryDetails": "Szczegóły dostawy",
+        "exchangeDetails": "Szczegóły wymiany",
+        "from": "Od",
+        "to": "Do",
+        "somethingWentWrong": "Coś poszło nie tak",
+        "describe": "Opis",
+        "category": "Kategoria",
+        "expirationDate": "Data ważności",
+        "foodDonor": "Oddający",
+        "productionDate": "Data produkcji",
+        "homemadeDate": "Data przygotowania",
+        "receiptDate": "Data odbioru",
+        "productState": "Stan produktu",
+        "receiptDateFrom": "Data odbioru od dnia",
+        "receiptDateTo": "Data odbioru do dnia",
+        "receiptHourFrom": "Data odbioru od godziny",
+        "receiptHourTo": "Data odbioru do godziny",
+        "foodDonorRating": "Ocena oddającego",
+        "foodDeliveryRating": "Ocena dostawcy",
+        "foodDelivery": "Dostawca",
+        "foodRecipient": "Odbiorca",
+        "foodRecipientRating": "Ocena odbiorcy",
+        "foodProductionDate": "Data produkcji"
+      },
+      "ProductStates": {
+        "productState": "Status produktu",
+        "VISIBLE": "Widoczny",
+        "HIDDEN": "Ukryty",
+        "RESERVED": "Zarezerwowany",
+        "EXCHANGED": "Wymieniony"
+      },
+      "ExchangeStates": {
+        "exchangeState": "Status wymiany",
+        "WAITING_FOR_RESERVED_DELIVERY": "Oczekujący na wolontariusza",
+        "COMPLETED": "Zakończona",
+        "WAITING_FOR_RECEIPT_PRODUCT": "Oczekujący na odbiór produktu",
+        "AWAITING": "Brak rezerwacji",
+        "WAITING_FOR_PENDING_DELIVERIES": "W trakcie dostarczania produktu"
+      },
+      "DeliveryStates": {
+        "deliveryState": "Status dostawy",
+        "WAITING_FOR_VOLUNTEER": "Oczekujący na wolontariusza",
+        "COMPLETED": "Zakończona",
+        "RESERVED": "Zarezerwowana"
+      },
+      "ProductionType": {
+        "productionType": "Typ produkcji",
+        "HOMEMADE": "Domowej roboty",
+        "PURCHASED": "Zakupiony"
+      },
+      "Categories": {
+        "vegetables": "Warzywa",
+        "fruits": "Owoce",
+        "meat": "Mięso",
+        "dairy": "Nabiał",
+        "sweets": "Słodycze",
+        "drinks": "Napoje",
+        "fish": "Ryby",
+        "other": "Inne",
+        "bread": "Pieczywo"
+      }
+    },
+    "AllProducts": {
+      "Requests": {
+        "FetchProduct": {
+          "success": "Pomyślnie pobrano produkty",
+          "Error": {
+            "general": "Coś poszło nie tak podczas pobrania produktów",
+            "exception.product.not_found": "Produkt nie został znaleziony",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas pobrania produktów"
+          }
+        },
+        "FetchFavCategories": {
+          "success": "Pomyślnie pobrano ulubione kategorie",
+          "Error": {
+            "general": "Coś poszło nie tak podczas pobrania twoich ulubionych kategorii",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas pobrania twoich ulubionych kategorii",
+            "exception.favCategory.not_found": "Ulubione kategorie nie zostały znalezione"
+          }
+        },
+        "ManageFavCategories": {
+          "success": "Pomyślnie zaktualizowano ulubione kategorie",
+          "Error": {
+            "general": "Coś poszło nie tak podczas pobrania twoich ulubionych kategorii",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas pobrania twoich ulubionych kategorii",
+            "exception.account.not_found": "Coś poszło nie tak podczas pobrania twoich ulubionych kategorii",
+            "exception.favCategory.not_found": "Ulubione kategorie nie zostały znalezione"
+          }
+        },
+        "RemoveProduct": {
+          "success": "Pomyślnie zarchiwizowano produktu",
+          "Error": {
+            "general": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.unhandled_exception": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.not_found": "Produkt nie został znaleziony",
+            "exception.product.is_exchanged": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.is_cancelled": "Produkt został już zarchiwizowany",
+            "exception.product.is_reserved": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.has_that_state": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.is_hidden": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.exchange_pending_deliveries": "Coś poszło nie tak podczas archiwizacji produktu",
+            "exception.product.owner": "Nie możesz zarchwizować produktu, który nie należy do Ciebie",
+            "exception.outdated_data": "Produkt jest nieaktualny"
+          }
+        }
+      },
+      "Categories": {
+        "vegetables": "Warzywa",
+        "fruits": "Owoce",
+        "meat": "Mięso",
+        "dairy": "Nabiał",
+        "sweets": "Słodycze",
+        "drinks": "Napoje",
+        "fish": "Ryby",
+        "other": "Inne",
+        "bread": "Pieczywo"
+      },
+      "ProductProductionType": {
+        "homemade": "Domowej roboty",
+        "purchased": "Zakupiony"
+      },
+      "somethingWentWrong": "Coś poszło nie tak",
+      "InfinityScroll": {
+        "noMoreProducts": "To już wszystkie produkty",
+        "noItems": "Nie ma żadnych produktów"
+      },
+      "FilterCategory": {
+        "label": "Wszukaj po kategoriach",
+        "placeholder": "Wyszukaj po kategoriach"
+      },
+      "SearchByName": {
+        "label": "Wyszukaj po nazwie",
+        "placeholder": "Wyszukaj po nazwie"
+      },
+      "searchButton": "Szukaj",
+      "AddProductStepper": {
+        "DetailsProductStep": {
+          "title": "Szczegóły produktu",
+          "productDetails": "Szczegóły produktu",
+          "delvieryDetails": "Szczegóły dostawy",
+          "exchangeDetails": "Szczegóły wymiany",
+          "from": "Od",
+          "to": "Do",
+          "somethingWentWrong": "Coś poszło nie tak",
+          "describe": "Opis",
+          "category": "Kategoria",
+          "expirationDate": "Data ważności",
+          "foodDonor": "Oddający",
+          "productionDate": "Data produkcji",
+          "homemadeDate": "Data przygotowania",
+          "receiptDate": "Data odbioru",
+          "productState": "Stan produktu",
+          "receiptDateFrom": "Data odbioru od dnia",
+          "receiptDateTo": "Data odbioru do dnia",
+          "receiptHourFrom": "Data odbioru od godziny",
+          "receiptHourTo": "Data odbioru do godziny",
+          "foodDonorRating": "Ocena oddającego",
+          "foodDeliveryRating": "Ocena dostawcy",
+          "foodDelivery": "Dostawca",
+          "foodRecipient": "Odbiorca",
+          "foodRecipientRating": "Ocena odbiorcy",
+          "foodProductionDate": "Data produkcji",
+          "productTitle": "Tytuł",
+          "productDescription": "Opis",
+          "productCategory": "Kategoria",
+          "productExpirationDate": "Data ważności",
+          "name": "Nazwa",
+          "next": "Dalej",
+          "Categories": {
+            "vegetables": "Warzywa",
+            "fruits": "Owoce",
+            "meat": "Mięso",
+            "dairy": "Nabiał",
+            "sweets": "Słodycze",
+            "drinks": "Napoje",
+            "fish": "Ryby",
+            "other": "Inne",
+            "bread": "Pieczywo"
+          },
+          "ProductStates": {
+            "productState": "Status produktu",
+            "VISIBLE": "Widoczny",
+            "HIDDEN": "Ukryty",
+            "RESERVED": "Zarezerwowany",
+            "EXCHANGED": "Wymieniony"
+          },
+          "ProductionType": {
+            "productionType": "Typ produkcji",
+            "HOMEMADE": "Domowej roboty",
+            "PURCHASED": "Zakupiony"
+          }
+        }
+      },
+      "ReservationStepper": {
+        "Requests": {
+          "ReserveProduct": {
+            "success": "Pomyślnie zarezewowano produkt",
+            "Error": {
+              "general": "Coś poszło nie tak podczas rezerwacji produktu",
+              "exception.product.not_found": "Produkt nie został znaleziony",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas rezerwacji produktu",
+              "exception.account.not_found": "Coś poszło nie tak podczas rezerwacji produktu",
+              "exception.exchange.not_found": "Coś poszło nie tak podczas rezerwacji produktu",
+              "exception.product.is_reserved": "Produkt jest już zarezerwowany",
+              "exception.product.is_exchanged": "Produkt został wymieniony",
+              "exception.product.is_cancelled": "Produkt jest zarchiwizowany",
+              "exception.product.is_hidden": "Produkt jest ukryty",
+              "exception.account.self_action": "Nie możesz wykonać tej operacji na swoim koncie",
+              "exception.exchange.own_product": "Nie możesz zarezerwować swojego produktu",
+              "exception.exchange.account_last_reservation_product": "Odczekaj kilka minut i pozwól innym zarezerwować ten produkt"
+            }
+          }
+        },
+        "DetailsDeliveryStep": {
+          "title": "Miejsce odbioru",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "seeAddressOnMap": "Zobacz adres na mapie",
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          },
+          "back": "Wstecz",
+          "next": "Dalej"
+        },
+        "DetailsProductStep": {
+          "title": "Szczegóły produktu",
+          "productDetails": "Szczegóły produktu",
+          "delvieryDetails": "Szczegóły dostawy",
+          "exchangeDetails": "Szczegóły wymiany",
+          "from": "Od",
+          "to": "Do",
+          "somethingWentWrong": "Coś poszło nie tak",
+          "describe": "Opis",
+          "category": "Kategoria",
+          "expirationDate": "Data ważności",
+          "foodDonor": "Oddający",
+          "productionDate": "Data produkcji",
+          "homemadeDate": "Data przygotowania",
+          "receiptDate": "Data odbioru",
+          "productState": "Stan produktu",
+          "receiptDateFrom": "Data odbioru od dnia",
+          "receiptDateTo": "Data odbioru do dnia",
+          "receiptHourFrom": "Data odbioru od godziny",
+          "receiptHourTo": "Data odbioru do godziny",
+          "foodDonorRating": "Ocena oddającego",
+          "foodDeliveryRating": "Ocena dostawcy",
+          "foodDelivery": "Dostawca",
+          "foodRecipient": "Odbiorca",
+          "foodRecipientRating": "Ocena odbiorcy",
+          "foodProductionDate": "Data produkcji",
+          "productTitle": "Tytuł",
+          "productDescription": "Opis",
+          "productCategory": "Kategoria",
+          "productExpirationDate": "Data ważności",
+          "name": "Nazwa",
+          "next": "Dalej",
+          "Categories": {
+            "vegetables": "Warzywa",
+            "fruits": "Owoce",
+            "meat": "Mięso",
+            "dairy": "Nabiał",
+            "sweets": "Słodycze",
+            "drinks": "Napoje",
+            "fish": "Ryby",
+            "other": "Inne",
+            "bread": "Pieczywo"
+          },
+          "ProductStates": {
+            "productState": "Status produktu",
+            "VISIBLE": "Widoczny",
+            "HIDDEN": "Ukryty",
+            "RESERVED": "Zarezerwowany",
+            "EXCHANGED": "Wymieniony"
+          },
+          "ProductionType": {
+            "productionType": "Typ produkcji",
+            "HOMEMADE": "Domowej roboty",
+            "PURCHASED": "Zakupiony"
+          }
+        },
+
+        "ReceiptDetails": {
+          "title": "Szczegóły odbioru",
+          "reservation": "Zarezerwuj",
+          "back": "Wróć",
+          "from": "Od",
+          "to": "Do",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "seeAddressOnMap": "Zobacz adres na mapie",
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          }
+        },
+        "DeliveryDetails": {
+          "title": "Szczegóły dostawy",
+          "reservation": "Zarezerwuj",
+          "back": "Wróć",
+          "from": "Od",
+          "to": "Do",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "seeAddressOnMap": "Zobacz adres na mapie",
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          }
+        },
+        "PickupTimeStep": {
+          "title": "Czas odbioru",
+          "fromDay": "Od dnia",
+          "toDay": "Do dnia",
+          "fromHours": "Od godziny",
+          "toHours": "Do godziny",
+          "back": "Wstecz",
+          "next": "Dalej"
+        },
+        "PickupLocationStep": {
+          "title": "Miejsce odbioru",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          },
+          "back": "Wstecz",
+          "finish": "Zakończ",
+          "checkAddressOnMap": "Sprawdź adres na mapie"
+        },
+        "ActionStepsButton": {
+          "cancel": "Anuluj",
+          "next": "Dalej",
+          "back": "Wróć",
+          "finish": "Zarezerwuj"
+        },
+        "allStepsCompleted": "Wszystkie kroki zostały zakończone",
+        "reservationDone": "Produkt został zarezerwowany",
+        "somethingWentWrong": "Coś poszło nie tak",
+        "FinishedStep": {
+          "title": "Finished",
+          "message": "The product has been reserved"
+        },
+        "TypeOfReservationStep": {
+          "title": "Rodzaj rezerwacji",
+          "typeOfReceipt": "Sposób odbioru",
+          "volunteer": "Odbiór oraz dostawa poprzez wolontariusza",
+          "personal": "Odbiór osobisty"
+        },
+        "SelfPickupStep": {
+          "title": "Odbiór osobisty",
+          "reservation": "Rezerwacja"
+        },
+        "VolunteerPickupStep": {
+          "title": "Odbiór poprzez wolontariusza",
+          "reservation": "Rezerwacja",
+          "button": "Opcja wolontariusza"
+        }
+      }
+    },
+    "OwnProducts": {
+      "addProductButton": "Oddaj produkt",
+      "categoriesSelect": "Kategorie",
+      "searchByCategories": "Wyszukaj według kategorii",
+      "somethingWentWrong": "Coś poszło nie tak",
+      "InfinityScroll": {
+        "noMoreProducts": "To już twoje wszystkie produkty",
+        "noItems": "Nie oddajesz żadnego produktu"
+      },
+
+      "AddProductStepper": {
+        "Requests": {
+          "AddProduct": {
+            "success": "Produkt pomyślnie został odddany",
+            "Error": {
+              "general": "Coś poszło nie tak podczas oddawania produktu",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas oddawania produktu",
+              "exception.account.not_found": "Zmieniany produkt nie został znaleziony",
+              "exception.map.address.can_not_be_null": "Nie można oddać produktu bez adresu"
+            }
+          }
+        },
+        "DetailsProductStep": {
+          "title": "Szczegóły",
+          "productTitle": "Tytuł",
+          "productDescription": "Opis",
+          "productCategory": "Kategoria",
+          "productExpirationDate": "Data ważności"
+        },
+        "PickupTimeStep": {
+          "title": "Czas odbioru",
+          "fromDay": "Od dnia",
+          "toDay": "Do dnia",
+          "fromHours": "Od godziny",
+          "toHours": "Do godziny",
+          "back": "Wstecz",
+          "next": "Dalej"
+        },
+        "PickupLocationStep": {
+          "title": "Miejsce odbioru",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "seeAddressOnMap": "Zobacz adres na mapie",
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          },
+          "back": "Wstecz",
+          "finish": "Zakończ"
+        },
+        "ActionStepsButton": {
+          "cancel": "Anuluj",
+          "next": "Dalej",
+          "back": "Wstecz",
+          "finish": "Zakończ"
+        },
+        "allStepsCompleted": "Wszystkie kroki zostały zakończone"
+      }
+    },
+
+    "products": "Produkty",
+
+    "OwnExchanges": {
+      "confirmReceiptDeliveryButton": "Potwierdź odbiór"
+    },
+
+    "AllDeliveries": {
+      "InfinityScroll": {
+        "noMoreProducts": "To już wszystkie dostawy",
+        "noItems": "Nie ma żadnych dostaw"
+      },
+      "DeliveryCard": {
+        "Requests": {
+          "CancelReservation": {
+            "success": "Produkt pomyślnie usunięto rezerwację dostawy",
+            "Error": {
+              "general": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.unhandled_exception": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.delivery.to.user.is_cancelled": "Dostawa została już anulowana",
+              "exception.delivery.to.user.is_reserved": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.delivery.to.user.not_found": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.account.not_found": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.account.self_action": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.deliverytouser.account_last_reservation_delivery_to_user": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.delivery_to_user.is_completed": "Dostawa jest zakończona",
+              "exception.delivery_to_user.account_not_participated": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.exchange.account_not_participated": "Coś poszło nie tak podczas usuwania rezerwacji dostawy",
+              "exception.outdated_data": "Dane rezerwacji dostawy są nieaktualne"
+            }
+          }
+        },
+        "confirmReceiptDeliveryButton": "Potwierdź odbiór",
+        "detailsButton": "Szczegóły",
+        "confirmReceiptButton": "Potwierdź odbiór",
+        "ratingDeliveries": "Oceń dostawę",
+        "ratingExchange": "Oceń wymianę",
+        "productDetails": "Szczegóły produktu",
+        "delvieryDetails": "Szczegóły dostawy",
+        "exchangeDetails": "Szczegóły wymiany",
+        "DetailsCardProduct": {
+          "productDetails": "Szczegóły produktu",
+          "delvieryDetails": "Szczegóły dostawy",
+          "exchangeDetails": "Szczegóły wymiany",
+          "from": "Od",
+          "to": "Do",
+          "somethingWentWrong": "Coś poszło nie tak",
+          "describe": "Opis",
+          "category": "Kategoria",
+          "expirationDate": "Data ważności",
+          "foodDonor": "Oddający",
+          "productionDate": "Data produkcji",
+          "homemadeDate": "Data przygotowania",
+          "receiptDate": "Data odbioru",
+          "productState": "Stan produktu",
+          "receiptDateFrom": "Data odbioru od dnia",
+          "receiptDateTo": "Data odbioru do dnia",
+          "receiptHourFrom": "Data odbioru od godziny",
+          "receiptHourTo": "Data odbioru do godziny",
+          "foodDonorRating": "Ocena oddającego",
+          "foodDeliveryRating": "Ocena dostawcy",
+          "foodDelivery": "Dostawca",
+          "foodRecipient": "Odbiorca",
+          "foodRecipientRating": "Ocena odbiorcy",
+          "foodProductionDate": "Data produkcji",
+          "adress": "Adres",
+          "street": "Ulica",
+          "number": "Numer",
+          "city": "Miasto",
+          "postalCode": "Kod pocztowy"
+        },
+        "DeliveryStates": {
+          "deliveryState": "Status dostawy",
+          "WAITING_FOR_VOLUNTEER": "Oczekujący na wolontariusza",
+          "COMPLETED": "Zakończona",
+          "RESERVED": "Zarezerwowana"
+        },
+        "Categories": {
+          "vegetables": "Warzywa",
+          "fruits": "Owoce",
+          "meat": "Mięso",
+          "dairy": "Nabiał",
+          "sweets": "Słodycze",
+          "drinks": "Napoje",
+          "fish": "Ryby",
+          "other": "Inne",
+          "bread": "Pieczywo"
+        },
+        "ProductStates": {
+          "productState": "Status produktu",
+          "VISIBLE": "Widoczny",
+          "HIDDEN": "Ukryty",
+          "RESERVED": "Zarezerwowany",
+          "EXCHANGED": "Wymieniony"
+        },
+        "ProductionType": {
+          "productionType": "Typ produkcji",
+          "HOMEMADE": "Domowej roboty",
+          "PURCHASED": "Zakupiony"
+        },
+        "reservationButton": "Zarezerwuj",
+        "ReservationDelivery": {
+          "Steps": {
+            "detailsProductStep": "Szczegóły produktu",
+            "deliveryDetailsStep": "Szczegóły dostawy",
+            "receiptDetailsStep": "Szczegóły odbioru"
+          },
+          "DetailsCardProduct": {
+            "productDetails": "Szczegóły produktu",
+            "delvieryDetails": "Szczegóły dostawy",
+            "exchangeDetails": "Szczegóły wymiany",
+            "from": "Od",
+            "to": "Do",
+            "somethingWentWrong": "Coś poszło nie tak",
+            "describe": "Opis",
+            "category": "Kategoria",
+            "expirationDate": "Data ważności",
+            "foodDonor": "Oddający",
+            "productionDate": "Data produkcji",
+            "homemadeDate": "Data przygotowania",
+            "receiptDate": "Data odbioru",
+            "productState": "Stan produktu",
+            "receiptDateFrom": "Data odbioru od dnia",
+            "receiptDateTo": "Data odbioru do dnia",
+            "receiptHourFrom": "Data odbioru od godziny",
+            "receiptHourTo": "Data odbioru do godziny",
+            "foodDonorRating": "Ocena oddającego",
+            "foodDeliveryRating": "Ocena dostawcy",
+            "foodDelivery": "Dostawca",
+            "foodRecipient": "Odbiorca",
+            "foodRecipientRating": "Ocena odbiorcy",
+            "foodProductionDate": "Data produkcji",
+            "next": "Dalej",
+
+            "Categories": {
+              "vegetables": "Warzywa",
+              "fruits": "Owoce",
+              "meat": "Mięso",
+              "dairy": "Nabiał",
+              "sweets": "Słodycze",
+              "drinks": "Napoje",
+              "fish": "Ryby",
+              "other": "Inne",
+              "bread": "Pieczywo"
+            },
+            "ProductStates": {
+              "productState": "Status produktu",
+              "VISIBLE": "Widoczny",
+              "HIDDEN": "Ukryty",
+              "RESERVED": "Zarezerwowany",
+              "EXCHANGED": "Wymieniony"
+            },
+            "ProductionType": {
+              "productionType": "Typ produkcji",
+              "HOMEMADE": "Domowej roboty",
+              "PURCHASED": "Zakupiony"
+            }
+          }
+        }
+      },
+      "MakeReservationStepper": {
+        "DetailsProduct": {
+          "title": "Szczegóły produktu",
+          "productTitle": "Tytuł",
+          "productDescription": "Opis",
+          "productCategory": "Kategoria",
+          "productExpirationDate": "Data ważności",
+          "next": "Dalej"
+        },
+        "ReceiptDetails": {
+          "title": "Szczegóły odbioru",
+          "reservation": "Zarezerwuj",
+          "back": "Wróć",
+          "fromDay": "Od dnia",
+          "toDay": "Do dnia",
+          "fromHour": "Od godziny",
+          "toHour": "Do godziny",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "seeAddressOnMap": "Zobacz adres na mapie",
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          }
+        },
+        "DelvieryDetails": {
+          "title": "Szczegóły dostawy",
+          "reservation": "Zarezerwuj",
+          "back": "Wróć",
+          "from": "Od",
+          "to": "Do",
+          "Address": {
+            "title": "Adres",
+            "street": "Ulica",
+            "number": "Numer",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy"
+          },
+          "seeAddressOnMap": "Zobacz adres na mapie",
+          "Map": {
+            "fillAddress": "Uzupełnij adres z mapy"
+          }
+        },
+        "FinishStep": {
+          "title": "Zakończono",
+          "message": "Dostawa została zarezerwowana"
+        },
+        "ReservationSnackbar": {
+          "success": "Produkt został zarezerwowany",
+          "error": "Błąd rezerwacji produktu"
+        }
+      }
+    }
+  },
+
+  "Stepper": {
+    "reception": "Reception"
+  },
+  "Product": {
+    "Hide": {
+      "error": "Błąd ukrycia produktu",
+      "success": "Produkt ukryty"
+    },
+    "Visible": {
+      "error": "Błąd uwidocznienia produktu",
+      "success": "Produkt widoczny"
+    }
+  }
+}

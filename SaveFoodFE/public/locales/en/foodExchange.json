@@ -1,0 +1,1013 @@
+{
+  "AxiosMessages": {},
+  "ValidationMessages": {
+    "Title": {
+      "required": "Title is required",
+      "minlength": "Title must be at least 5 characters long",
+      "maxlength": "Title can have a maximum of 50 characters"
+    },
+    "Description": {
+      "required": "Description is required",
+      "minlength": "Description must be at least 10 characters long",
+      "maxlength": "Description can have a maximum of 300 characters"
+    },
+    "Category": {
+      "required": "Select a category"
+    },
+    "MapAddress": {
+      "Street": {
+        "required": "Street is required",
+        "maxlength": "Street can have a maximum of 64 characters"
+      },
+      "StreetNumber": {
+        "required": "Number is required",
+        "pattern": "Number must be in the format of a digit or a combination of a digit and a letter"
+      },
+      "City": {
+        "required": "City is required",
+        "maxlength": "City can have a maximum of 64 characters"
+      },
+      "PostalCode": {
+        "required": "Postal code is required",
+        "pattern": "Postal code must be in the format 00-000"
+      }
+    }
+  },
+  "Tabs": {
+    "TabsTitle": {
+      "ownProducts": "Your products",
+      "allProducts": "Product list",
+      "ownExchanges": "Your reservations",
+      "ownDeliveries": "Your deliveries",
+      "allDeliveries": "All deliveries",
+      "allExchanges": "All reservations"
+    },
+    "AllExchanges": {
+      "InfinityScroll": {
+        "noMoreProducts": "These are all the reservations",
+        "noItems": "No reservations available"
+      },
+      "ExchangeCard": {
+        "Requests": {
+          "CancelReservation": {
+            "success": "Product reservation canceled successfully",
+            "Error": {
+              "general": "Something went wrong while canceling the product reservation",
+              "exception.unhandled_exception": "Something went wrong while canceling the product reservation",
+              "exception.account.self_action": "Something went wrong while canceling the product reservation",
+              "exception.delivery_to_user.account_not_participated": "Something went wrong while canceling the product reservation",
+              "exception.exchange.account_not_participated": "Something went wrong while canceling the product reservation",
+              "exception.account.not_found": "Something went wrong while canceling the product reservation",
+              "exception.exchange.not_found": "Something went wrong while canceling the product reservation",
+              "exception.product.not_found": "Something went wrong while canceling the product reservation",
+              "exception.product.is_exchanged": "Exchange has already been completed",
+              "exception.product.is_cancelled": "Something went wrong while canceling the product reservation",
+              "exception.product.is_hidden": "Something went wrong while canceling the product reservation",
+              "exception.exchange.account_last_reservation_product": "Something went wrong while canceling the product reservation",
+              "exception.outdated_data": "Reservation data is outdated"
+            }
+          },
+          "FetchReservation": {
+            "success": "Reservation updated successfully",
+            "Error": {
+              "general": "Something went wrong while updating the reservation",
+              "exception.unhandled_exception": "Something went wrong while updating the reservation",
+              "exception.exchange.not_found": "Something went wrong while updating the reservation"
+            }
+          },
+          "ConfirmReceiptProduct": {
+            "success": "Product receipt confirmed",
+            "Error": {
+              "general": "Something went wrong while confirming the product receipt",
+              "exception.unhandled_exception": "Something went wrong while confirming the product receipt",
+              "exception.exchange.not_found": "Something went wrong while confirming the product receipt",
+              "exception.account.self_action": "Something went wrong while confirming the product receipt",
+              "exception.delivery_to_user.account_not_participated": "Something went wrong while confirming the product receipt",
+              "exception.exchange.account_not_participated": "Something went wrong while confirming the product receipt",
+              "exception.account.not_found": "Something went wrong while confirming the product receipt",
+              "exception.product.not_found": "Something went wrong while confirming the product receipt",
+              "exception.product.is_exchanged": "Exchange has already been completed",
+              "exception.product.is_cancelled": "Product is archived",
+              "exception.product.is_hidden": "Product is hidden",
+              "exception.exchange.account_last_reservation_product": "Something went wrong while confirming the product receipt",
+              "exception.outdated_data": "Data is outdated"
+            }
+          }
+        },
+        "Rating": {
+          "Requests": {
+            "RateDelivery": {
+              "success": "Product delivery rated successfully",
+              "Error": {
+                "general": "Something went wrong while rating the product delivery",
+                "exception.unhandled_exception": "Something went wrong while rating the product delivery",
+                "exception.delivery.to.user.not_found": "Something went wrong while rating the product delivery",
+                "exception.account.not_found": "Something went wrong while rating the product delivery",
+                "exception.account.has_been_rated_delivery": "User has already been rated in this delivery",
+                "exception.exchange.not_completed": "You cannot rate a delivery that has not been completed",
+                "exception.delivery_to_user.not_completed": "You cannot rate a delivery that has not been completed",
+                "exception.delivery_to_user.account_not_participated": "Account did not participate in the delivery",
+                "exception.account.self_action": "You cannot perform this operation on your own account",
+                "exception.outdated_data": "Data is outdated"
+              }
+            },
+            "RateExchange": {
+              "success": "Product exchange rated successfully",
+              "Error": {
+                "general": "Something went wrong while rating the product exchange",
+                "exception.unhandled_exception": "Something went wrong while rating the product exchange",
+                "exception.exchange.not_found": "Something went wrong while rating the product exchange",
+                "exception.account.not_found": "Something went wrong while rating the product exchange",
+                "exception.exchange.account_has_been_rated_exchange": "User has already been rated in this exchange",
+                "exception.exchange.account_not_participated": "Account did not participate in the exchange",
+                "exception.account.self_action": "You cannot perform this operation on your own account",
+                "exception.exchange.not_completed": "You cannot rate an exchange that has not been completed",
+                "exception.exchange.is_not_pending_delivery": "You cannot rate an exchange if the product has not been received",
+                "exception.outdated_data": "Data is outdated"
+              }
+            },
+            "GetAccount": {
+              "Error": {
+                "general": "Something went wrong while fetching the delivery for rating",
+                "exception.unhandled_exception": "Something went wrong while fetching the delivery for rating",
+                "exception.delivery.to.user.not_found": "Something went wrong while fetching the delivery for rating",
+                "exception.outdated_data": "Data is outdated"
+              }
+            }
+          },
+          "ratingExchange": "You are rating the user from whom you received the product",
+          "ratingDelivery": "You are rating the user who delivered the product to you",
+          "rateButton": "Rate",
+          "rateUser": "Rated user",
+          "rate": "Rating"
+        },
+        "DeliveryStates": {
+          "deliveryState": "Delivery status",
+          "WAITING_FOR_VOLUNTEER": "Waiting for a volunteer",
+          "COMPLETED": "Completed",
+          "RESERVED": "Reserved"
+        },
+        "confirmReceiptDeliveryButton": "Confirm receipt",
+        "detailsButton": "Details",
+        "confirmReceiptButton": "Confirm receipt",
+        "ratingDeliveries": "Rate delivery",
+        "ratingExchange": "Rate exchange",
+        "productDetails": "Product details",
+        "delvieryDetails": "Delivery details",
+        "exchangeDetails": "Exchange details",
+        "DetailsCardProduct": {
+          "adress": "Address",
+          "street": "Street",
+          "number": "Number",
+          "city": "City",
+          "postalCode": "Postal Code",
+          "TypeReservation": {
+            "title": "Reservation type",
+            "typeOfReceipt": "Personal pickup",
+            "delivery": "Pickup and delivery by a volunteer"
+          },
+          "reservationTitle": "Product reservation: ",
+          "productDetails": "Product details",
+          "delvieryDetails": "Delivery details",
+          "exchangeDetails": "Reservation details",
+          "from": "From",
+          "to": "To",
+          "somethingWentWrong": "Something went wrong",
+          "describe": "Description",
+          "category": "Category",
+          "expirationDate": "Expiration date",
+          "foodDonor": "Donor",
+          "productionDate": "Production date",
+          "homemadeDate": "Homemade date",
+          "receiptDate": "Receipt date",
+          "productState": "Product state",
+          "receiptDateFrom": "Receipt date from",
+          "receiptDateTo": "Receipt date to",
+          "receiptHourFrom": "Receipt hour from",
+          "receiptHourTo": "Receipt hour to",
+          "foodDonorRating": "Donor rating",
+          "foodDeliveryRating": "Delivery rating",
+          "foodDelivery": "Delivery person",
+          "foodRecipient": "Recipient",
+          "foodRecipientRating": "Recipient rating",
+          "foodProductionDate": "Production date"
+        },
+        "ProductStates": {
+          "productState": "Product status",
+          "VISIBLE": "Visible",
+          "HIDDEN": "Hidden",
+          "RESERVED": "Reserved",
+          "EXCHANGED": "Exchanged"
+        },
+        "ExchangeStates": {
+          "exchangeState": "Exchange status",
+          "WAITING_FOR_RESERVED_DELIVERY": "Waiting for a volunteer",
+          "COMPLETED": "Completed",
+          "WAITING_FOR_RECEIPT_PRODUCT": "Waiting for product receipt",
+          "AWAITING": "No reservations",
+          "WAITING_FOR_PENDING_DELIVERIES": "Pending product delivery"
+        },
+        "ProductionType": {
+          "productionType": "Production type",
+          "HOMEMADE": "Homemade",
+          "PURCHASED": "Purchased"
+        },
+        "Categories": {
+          "vegetables": "Vegetables",
+          "fruits": "Fruits",
+          "meat": "Meat",
+          "dairy": "Dairy",
+          "sweets": "Sweets",
+          "drinks": "Drinks",
+          "fish": "Fish",
+          "other": "Other",
+          "bread": "Bread"
+        }
+      }
+    },
+    "ProductCard": {
+      "Requests": {
+        "Visibility": {
+          "success": "Product successfully hidden",
+          "Error": {
+            "general": "Something went wrong while hiding the product",
+            "exception.unhandled_exception": "Something went wrong while hiding the product",
+            "exception.product.not_found": "The changed product was not found",
+            "exception.product.is_exchanged": "The product has been exchanged",
+            "exception.product.is_cancelled": "The product has been archived",
+            "exception.product.is_reserved": "The product is currently reserved",
+            "exception.product.has_that_state": "The product is already hidden",
+            "exception.product.is_hidden": "The product is already hidden",
+            "exception.exchange_pending_deliveries": "The product is currently being delivered",
+            "exception.product.owner": "You cannot hide a product that does not belong to you",
+            "exception.outdated_data": "The product is outdated"
+          }
+        },
+        "Hidden": {
+          "success": "Product successfully made visible",
+          "Error": {
+            "general": "Something went wrong while making the product visible",
+            "exception.unhandled_exception": "Something went wrong while making the product visible",
+            "exception.product.not_found": "The changed product was not found",
+            "exception.product.is_exchanged": "The product has been exchanged",
+            "exception.product.is_cancelled": "The product has been archived",
+            "exception.product.is_reserved": "The product is currently reserved",
+            "exception.product.has_that_state": "The product is already visible",
+            "exception.product.is_hidden": "The product is hidden",
+            "exception.exchange_pending_deliveries": "The product is currently being delivered",
+            "exception.product.owner": "You cannot make visible a product that does not belong to you",
+            "exception.outdated_data": "The product is outdated"
+          }
+        },
+        "ConfirmReceipt": {
+          "success": "Product receipt successfully confirmed",
+          "Error": {
+            "general": "Something went wrong while confirming the product receipt",
+            "exception.unhandled_exception": "Something went wrong while confirming the product receipt",
+            "exception.product.not_found": "Product not found",
+            "exception.product.is_exchanged": "The product has been exchanged",
+            "exception.product.is_cancelled": "The product has been archived",
+            "exception.product.is_reserved": "Something went wrong while confirming the product receipt",
+            "exception.product.has_that_state": "Product receipt has already been confirmed",
+            "exception.product.is_hidden": "The product is hidden",
+            "exception.exchange_pending_deliveries": "Something went wrong while confirming the product receipt",
+            "exception.product.owner": "You cannot hide a product that does not belong to you",
+            "exception.outdated_data": "The product is outdated"
+          }
+        },
+        "RemoveProduct": {
+          "success": "Product successfully archived",
+          "Error": {
+            "general": "Something went wrong while archiving the product",
+            "exception.unhandled_exception": "Something went wrong while archiving the product",
+            "exception.product.not_found": "Product not found",
+            "exception.product.is_exchanged": "Something went wrong while archiving the product",
+            "exception.product.is_cancelled": "The product has already been archived",
+            "exception.product.is_reserved": "Something went wrong while archiving the product",
+            "exception.product.has_that_state": "Something went wrong while archiving the product",
+            "exception.product.is_hidden": "Something went wrong while archiving the product",
+            "exception.exchange_pending_deliveries": "Something went wrong while archiving the product",
+            "exception.product.owner": "You cannot archive a product that does not belong to you",
+            "exception.outdated_data": "The product is outdated"
+          }
+        },
+        "FetchProduct": {
+          "success": "Product successfully updated",
+          "Error": {
+            "general": "Something went wrong while updating the product",
+            "exception.product.not_found": "Product not found",
+            "exception.unhandled_exception": "Something went wrong while updating the product"
+          }
+        }
+      },
+      "confirmReceiptButton": "Confirm receipt",
+      "RatingExchangeDialog": {
+        "title": "Rate exchange",
+        "rateButton": "Rate"
+      },
+      "reserveButton": "Reserve",
+      "detailsButton": "Details",
+      "DetailsCardProduct": {
+        "Requests": {
+          "EditProduct": {
+            "success": "Product successfully updated",
+            "Error": {
+              "general": "Something went wrong while updating the product",
+              "exception.unhandled_exception": "Something went wrong while updating the product",
+              "exception.product.not_found": "Something went wrong while updating the product",
+              "exception.product.owner": "You cannot update a product that does not belong to you",
+              "exception.product.is_reserved": "The product is reserved",
+              "exception.product.is_exchanged": "The product has already been exchanged",
+              "exception.outdated_data": "The product is outdated"
+            }
+          },
+          "FetchProduct": {
+            "Error": {
+              "general": "Something went wrong while fetching the product",
+              "exception.product.not_found": "Something went wrong while fetching the product",
+              "exception.unhandled_exception": "Something went wrong while fetching the product"
+            }
+          },
+          "ActulizationProduct": {
+            "success": "Product successfully updated",
+            "Error": {
+              "general": "Something went wrong while updating the product",
+              "exception.product.not_found": "Something went wrong while updating the product",
+              "exception.unhandled_exception": "Something went wrong while updating the product"
+            }
+          }
+        },
+        "adress": "Address",
+        "street": "Street",
+        "number": "Number",
+        "city": "City",
+        "postalCode": "Postal Code",
+
+        "productDetails": "Product details",
+        "delvieryDetails": "Delivery details",
+        "exchangeDetails": "Exchange details",
+        "from": "From",
+        "to": "To",
+        "somethingWentWrong": "Something went wrong",
+        "describe": "Description",
+        "category": "Category",
+        "expirationDate": "Expiration date",
+        "foodDonor": "Donor",
+        "productionDate": "Production date",
+        "homemadeDate": "Homemade date",
+        "receiptDate": "Receipt date",
+        "productState": "Product state",
+        "receiptDateFrom": "Receipt date from",
+        "receiptDateTo": "Receipt date to",
+        "receiptHourFrom": "Receipt hour from",
+        "receiptHourTo": "Receipt hour to",
+        "foodDonorRating": "Donor rating",
+        "foodDeliveryRating": "Delivery rating",
+        "foodDelivery": "Delivery person",
+        "foodRecipient": "Recipient",
+        "foodRecipientRating": "Recipient rating",
+        "foodProductionDate": "Production date"
+      },
+      "ProductStates": {
+        "productState": "Product status",
+        "VISIBLE": "Visible",
+        "HIDDEN": "Hidden",
+        "RESERVED": "Reserved",
+        "EXCHANGED": "Exchanged"
+      },
+      "ExchangeStates": {
+        "exchangeState": "Exchange status",
+        "WAITING_FOR_RESERVED_DELIVERY": "Waiting for a volunteer",
+        "COMPLETED": "Completed",
+        "WAITING_FOR_RECEIPT_PRODUCT": "Waiting for product receipt",
+        "AWAITING": "No reservations",
+        "WAITING_FOR_PENDING_DELIVERIES": "During product delivery"
+      },
+      "DeliveryStates": {
+        "deliveryState": "Delivery status",
+        "WAITING_FOR_VOLUNTEER": "Waiting for a volunteer",
+        "COMPLETED": "Completed",
+        "RESERVED": "Reserved"
+      },
+      "ProductionType": {
+        "productionType": "Production type",
+        "HOMEMADE": "Homemade",
+        "PURCHASED": "Purchased"
+      },
+      "Categories": {
+        "vegetables": "Vegetables",
+        "fruits": "Fruits",
+        "meat": "Meat",
+        "dairy": "Dairy",
+        "sweets": "Sweets",
+        "drinks": "Drinks",
+        "fish": "Fish",
+        "other": "Other",
+        "bread": "Bread"
+      }
+    },
+    "AllProducts": {
+      "Requests": {
+        "FetchProduct": {
+          "success": "Successfully fetched products",
+          "Error": {
+            "general": "Something went wrong while fetching products",
+            "exception.product.not_found": "Product not found",
+            "exception.unhandled_exception": "Something went wrong while fetching products"
+          }
+        },
+        "FetchFavCategories": {
+          "success": "Successfully fetched favorite categories",
+          "Error": {
+            "general": "Something went wrong while fetching your favorite categories",
+            "exception.unhandled_exception": "Something went wrong while fetching your favorite categories",
+            "exception.favCategory.not_found": "Favorite categories not found"
+          }
+        },
+        "ManageFavCategories": {
+          "success": "Successfully updated favorite categories",
+          "Error": {
+            "general": "Something went wrong while updating your favorite categories",
+            "exception.unhandled_exception": "Something went wrong while updating your favorite categories",
+            "exception.account.not_found": "Something went wrong while updating your favorite categories",
+            "exception.favCategory.not_found": "Favorite categories not found"
+          }
+        },
+        "RemoveProduct": {
+          "success": "Successfully archived product",
+          "Error": {
+            "general": "Something went wrong while archiving the product",
+            "exception.unhandled_exception": "Something went wrong while archiving the product",
+            "exception.product.not_found": "Product not found",
+            "exception.product.is_exchanged": "Something went wrong while archiving the product",
+            "exception.product.is_cancelled": "Product is already archived",
+            "exception.product.is_reserved": "Something went wrong while archiving the product",
+            "exception.product.has_that_state": "Something went wrong while archiving the product",
+            "exception.product.is_hidden": "Something went wrong while archiving the product",
+            "exception.exchange_pending_deliveries": "Something went wrong while archiving the product",
+            "exception.product.owner": "You cannot archive a product that does not belong to you",
+            "exception.outdated_data": "Product is outdated"
+          }
+        }
+      },
+      "Categories": {
+        "vegetables": "Vegetables",
+        "fruits": "Fruits",
+        "meat": "Meat",
+        "dairy": "Dairy",
+        "sweets": "Sweets",
+        "drinks": "Drinks",
+        "fish": "Fish",
+        "other": "Other",
+        "bread": "Bread"
+      },
+      "ProductProductionType": {
+        "homemade": "Homemade",
+        "purchased": "Purchased"
+      },
+      "somethingWentWrong": "Something went wrong",
+      "InfinityScroll": {
+        "noMoreProducts": "No more products",
+        "noItems": "No items found"
+      },
+      "FilterCategory": {
+        "label": "Search by categories",
+        "placeholder": "Search by categories"
+      },
+      "SearchByName": {
+        "label": "Search by name",
+        "placeholder": "Search by name"
+      },
+      "searchButton": "Search",
+      "AddProductStepper": {
+        "DetailsProductStep": {
+          "title": "Product details",
+          "productDetails": "Product details",
+          "delvieryDetails": "Delivery details",
+          "exchangeDetails": "Exchange details",
+          "from": "From",
+          "to": "To",
+          "somethingWentWrong": "Something went wrong",
+          "describe": "Description",
+          "category": "Category",
+          "expirationDate": "Expiration date",
+          "foodDonor": "Food donor",
+          "productionDate": "Production date",
+          "homemadeDate": "Homemade date",
+          "receiptDate": "Receipt date",
+          "productState": "Product state",
+          "receiptDateFrom": "Receipt date from",
+          "receiptDateTo": "Receipt date to",
+          "receiptHourFrom": "Receipt hour from",
+          "receiptHourTo": "Receipt hour to",
+          "foodDonorRating": "Food donor rating",
+          "foodDeliveryRating": "Food delivery rating",
+          "foodDelivery": "Food delivery",
+          "foodRecipient": "Food recipient",
+          "foodRecipientRating": "Food recipient rating",
+          "foodProductionDate": "Food production date",
+          "productTitle": "Title",
+          "productDescription": "Description",
+          "productCategory": "Category",
+          "productExpirationDate": "Expiration date",
+          "name": "Name",
+          "next": "Next",
+          "Categories": {
+            "vegetables": "Vegetables",
+            "fruits": "Fruits",
+            "meat": "Meat",
+            "dairy": "Dairy",
+            "sweets": "Sweets",
+            "drinks": "Drinks",
+            "fish": "Fish",
+            "other": "Other",
+            "bread": "Bread"
+          },
+          "ProductStates": {
+            "productState": "Product state",
+            "VISIBLE": "Visible",
+            "HIDDEN": "Hidden",
+            "RESERVED": "Reserved",
+            "EXCHANGED": "Exchanged"
+          },
+          "ProductionType": {
+            "productionType": "Production type",
+            "HOMEMADE": "Homemade",
+            "PURCHASED": "Purchased"
+          }
+        }
+      },
+      "ReservationStepper": {
+        "Requests": {
+          "ReserveProduct": {
+            "success": "Product successfully reserved",
+            "Error": {
+              "general": "Something went wrong during product reservation",
+              "exception.product.not_found": "Product not found",
+              "exception.unhandled_exception": "Something went wrong during product reservation",
+              "exception.account.not_found": "Something went wrong during product reservation",
+              "exception.exchange.not_found": "Something went wrong during product reservation",
+              "exception.product.is_reserved": "Product is already reserved",
+              "exception.product.is_exchanged": "Product has already been exchanged",
+              "exception.product.is_cancelled": "Product is archived",
+              "exception.product.is_hidden": "Product is hidden",
+              "exception.account.self_action": "You cannot perform this operation on your own account",
+              "exception.exchange.own_product": "You cannot reserve your own product",
+              "exception.exchange.account_last_reservation_product": "Wait a few minutes and let others reserve this product"
+            }
+          }
+        },
+        "DetailsDeliveryStep": {
+          "title": "Pickup Location",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "seeAddressOnMap": "See address on map",
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          },
+          "back": "Back",
+          "next": "Next"
+        },
+        "DetailsProductStep": {
+          "title": "Product Details",
+          "productDetails": "Product Details",
+          "delvieryDetails": "Delivery Details",
+          "exchangeDetails": "Exchange Details",
+          "from": "From",
+          "to": "To",
+          "somethingWentWrong": "Something went wrong",
+          "describe": "Description",
+          "category": "Category",
+          "expirationDate": "Expiration Date",
+          "foodDonor": "Donor",
+          "productionDate": "Production Date",
+          "homemadeDate": "Homemade Date",
+          "receiptDate": "Receipt Date",
+          "productState": "Product State",
+          "receiptDateFrom": "Receipt date from",
+          "receiptDateTo": "Receipt date to",
+          "receiptHourFrom": "Receipt hour from",
+          "receiptHourTo": "Receipt hour to",
+          "foodDonorRating": "Donor rating",
+          "foodDeliveryRating": "Delivery rating",
+          "foodDelivery": "Delivery",
+          "foodRecipient": "Recipient",
+          "foodRecipientRating": "Recipient rating",
+          "foodProductionDate": "Production date",
+          "productTitle": "Title",
+          "productDescription": "Description",
+          "productCategory": "Category",
+          "productExpirationDate": "Expiration date",
+          "name": "Name",
+          "next": "Next",
+          "Categories": {
+            "vegetables": "Vegetables",
+            "fruits": "Fruits",
+            "meat": "Meat",
+            "dairy": "Dairy",
+            "sweets": "Sweets",
+            "drinks": "Drinks",
+            "fish": "Fish",
+            "other": "Other",
+            "bread": "Bread"
+          },
+          "ProductStates": {
+            "productState": "Product status",
+            "VISIBLE": "Visible",
+            "HIDDEN": "Hidden",
+            "RESERVED": "Reserved",
+            "EXCHANGED": "Exchanged"
+          },
+          "ProductionType": {
+            "productionType": "Production type",
+            "HOMEMADE": "Homemade",
+            "PURCHASED": "Purchased"
+          }
+        },
+        "ReceiptDetails": {
+          "title": "Receipt Details",
+          "reservation": "Reserve",
+          "back": "Back",
+          "from": "From",
+          "to": "To",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "seeAddressOnMap": "See address on map",
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          }
+        },
+        "DeliveryDetails": {
+          "title": "Delivery Details",
+          "reservation": "Reserve",
+          "back": "Back",
+          "from": "From",
+          "to": "To",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "seeAddressOnMap": "See address on map",
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          }
+        },
+        "PickupTimeStep": {
+          "title": "Pickup Time",
+          "fromDay": "From day",
+          "toDay": "To day",
+          "fromHours": "From hour",
+          "toHours": "To hour",
+          "back": "Back",
+          "next": "Next"
+        },
+        "PickupLocationStep": {
+          "title": "Pickup Location",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          },
+          "back": "Back",
+          "finish": "Finish",
+          "checkAddressOnMap": "Check address on map"
+        },
+        "ActionStepsButton": {
+          "cancel": "Cancel",
+          "next": "Next",
+          "back": "Back",
+          "finish": "Reserve"
+        },
+        "allStepsCompleted": "All steps have been completed",
+        "reservationDone": "Product has been reserved",
+        "somethingWentWrong": "Something went wrong",
+        "FinishedStep": {
+          "title": "Finished",
+          "message": "The product has been reserved"
+        },
+        "TypeOfReservationStep": {
+          "title": "Type of Reservation",
+          "typeOfReceipt": "Receipt method",
+          "volunteer": "Pickup and delivery by volunteer",
+          "personal": "Personal pickup"
+        },
+        "SelfPickupStep": {
+          "title": "Personal Pickup",
+          "reservation": "Reservation"
+        },
+        "VolunteerPickupStep": {
+          "title": "Pickup by Volunteer",
+          "reservation": "Reservation",
+          "button": "Volunteer option"
+        }
+      }
+    },
+    "OwnProducts": {
+      "addProductButton": "Donate product",
+      "categoriesSelect": "Categories",
+      "searchByCategories": "Search by categories",
+      "somethingWentWrong": "Something went wrong",
+      "InfinityScroll": {
+        "noMoreProducts": "These are all your products",
+        "noItems": "You are not donating any product"
+      },
+      "AddProductStepper": {
+        "Requests": {
+          "AddProduct": {
+            "success": "Product successfully donated",
+            "Error": {
+              "general": "Something went wrong while donating the product",
+              "exception.unhandled_exception": "Something went wrong while donating the product",
+              "exception.account.not_found": "The changed product was not found",
+              "exception.map.address.can_not_be_null": "Cannot donate product without an address"
+            }
+          }
+        },
+        "DetailsProductStep": {
+          "title": "Details",
+          "productTitle": "Title",
+          "productDescription": "Description",
+          "productCategory": "Category",
+          "productExpirationDate": "Expiration Date"
+        },
+        "PickupTimeStep": {
+          "title": "Pickup Time",
+          "fromDay": "From day",
+          "toDay": "To day",
+          "fromHours": "From hour",
+          "toHours": "To hour",
+          "back": "Back",
+          "next": "Next"
+        },
+        "PickupLocationStep": {
+          "title": "Pickup Location",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "seeAddressOnMap": "See address on map",
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          },
+          "back": "Back",
+          "finish": "Finish"
+        },
+        "ActionStepsButton": {
+          "cancel": "Cancel",
+          "next": "Next",
+          "back": "Back",
+          "finish": "Finish"
+        },
+        "allStepsCompleted": "All steps have been completed"
+      }
+    },
+    "products": "Products",
+    "OwnExchanges": {
+      "confirmReceiptDeliveryButton": "Confirm receipt"
+    },
+    "AllDeliveries": {
+      "InfinityScroll": {
+        "noMoreProducts": "These are all the deliveries",
+        "noItems": "There are no deliveries"
+      },
+
+      "DeliveryCard": {
+        "Requests": {
+          "CancelReservation": {
+            "success": "Delivery reservation successfully canceled",
+            "Error": {
+              "general": "Something went wrong while canceling the delivery reservation",
+              "exception.unhandled_exception": "Something went wrong while canceling the delivery reservation",
+              "exception.delivery.to.user.is_cancelled": "The delivery has already been canceled",
+              "exception.delivery.to.user.is_reserved": "Something went wrong while canceling the delivery reservation",
+              "exception.delivery.to.user.not_found": "Something went wrong while canceling the delivery reservation",
+              "exception.account.not_found": "Something went wrong while canceling the delivery reservation",
+              "exception.account.self_action": "Something went wrong while canceling the delivery reservation",
+              "exception.deliverytouser.account_last_reservation_delivery_to_user": "Something went wrong while canceling the delivery reservation",
+              "exception.delivery_to_user.is_completed": "The delivery is completed",
+              "exception.delivery_to_user.account_not_participated": "Something went wrong while canceling the delivery reservation",
+              "exception.exchange.account_not_participated": "Something went wrong while canceling the delivery reservation",
+              "exception.outdated_data": "Delivery reservation data is outdated"
+            }
+          }
+        },
+        "confirmReceiptDeliveryButton": "Confirm receipt",
+        "detailsButton": "Details",
+        "confirmReceiptButton": "Confirm receipt",
+        "ratingDeliveries": "Rate delivery",
+        "ratingExchange": "Rate exchange",
+        "productDetails": "Product details",
+        "delvieryDetails": "Delivery details",
+        "exchangeDetails": "Exchange details",
+        "DetailsCardProduct": {
+          "productDetails": "Product details",
+          "delvieryDetails": "Delivery details",
+          "exchangeDetails": "Exchange details",
+          "from": "From",
+          "to": "To",
+          "somethingWentWrong": "Something went wrong",
+          "describe": "Description",
+          "category": "Category",
+          "expirationDate": "Expiration Date",
+          "foodDonor": "Donor",
+          "productionDate": "Production Date",
+          "homemadeDate": "Homemade Date",
+          "receiptDate": "Receipt Date",
+          "productState": "Product State",
+          "receiptDateFrom": "Receipt date from",
+          "receiptDateTo": "Receipt date to",
+          "receiptHourFrom": "Receipt hour from",
+          "receiptHourTo": "Receipt hour to",
+          "foodDonorRating": "Donor rating",
+          "foodDeliveryRating": "Delivery rating",
+          "foodDelivery": "Delivery",
+          "foodRecipient": "Recipient",
+          "foodRecipientRating": "Recipient rating",
+          "foodProductionDate": "Production date",
+          "adress": "Address",
+          "street": "Street",
+          "number": "Number",
+          "city": "City",
+          "postalCode": "Postal Code"
+        },
+        "DeliveryStates": {
+          "deliveryState": "Delivery status",
+          "WAITING_FOR_VOLUNTEER": "Waiting for volunteer",
+          "COMPLETED": "Completed",
+          "RESERVED": "Reserved"
+        },
+        "Categories": {
+          "vegetables": "Vegetables",
+          "fruits": "Fruits",
+          "meat": "Meat",
+          "dairy": "Dairy",
+          "sweets": "Sweets",
+          "drinks": "Drinks",
+          "fish": "Fish",
+          "other": "Other",
+          "bread": "Bread"
+        },
+        "ProductStates": {
+          "productState": "Product status",
+          "VISIBLE": "Visible",
+          "HIDDEN": "Hidden",
+          "RESERVED": "Reserved",
+          "EXCHANGED": "Exchanged"
+        },
+        "ProductionType": {
+          "productionType": "Production type",
+          "HOMEMADE": "Homemade",
+          "PURCHASED": "Purchased"
+        },
+        "reservationButton": "Reserve",
+        "ReservationDelivery": {
+          "Steps": {
+            "detailsProductStep": "Product details",
+            "deliveryDetailsStep": "Delivery details",
+            "receiptDetailsStep": "Receipt details"
+          },
+          "DetailsCardProduct": {
+            "productDetails": "Product details",
+            "delvieryDetails": "Delivery details",
+            "exchangeDetails": "Exchange details",
+            "from": "From",
+            "to": "To",
+            "somethingWentWrong": "Something went wrong",
+            "describe": "Description",
+            "category": "Category",
+            "expirationDate": "Expiration Date",
+            "foodDonor": "Donor",
+            "productionDate": "Production Date",
+            "homemadeDate": "Homemade Date",
+            "receiptDate": "Receipt Date",
+            "productState": "Product State",
+            "receiptDateFrom": "Receipt date from",
+            "receiptDateTo": "Receipt date to",
+            "receiptHourFrom": "Receipt hour from",
+            "receiptHourTo": "Receipt hour to",
+            "foodDonorRating": "Donor rating",
+            "foodDeliveryRating": "Delivery rating",
+            "foodDelivery": "Delivery",
+            "foodRecipient": "Recipient",
+            "foodRecipientRating": "Recipient rating",
+            "foodProductionDate": "Production date",
+            "next": "Next",
+            "Categories": {
+              "vegetables": "Vegetables",
+              "fruits": "Fruits",
+              "meat": "Meat",
+              "dairy": "Dairy",
+              "sweets": "Sweets",
+              "drinks": "Drinks",
+              "fish": "Fish",
+              "other": "Other",
+              "bread": "Bread"
+            },
+            "ProductStates": {
+              "productState": "Product Status",
+              "VISIBLE": "Visible",
+              "HIDDEN": "Hidden",
+              "RESERVED": "Reserved",
+              "EXCHANGED": "Exchanged"
+            },
+            "ProductionType": {
+              "productionType": "Production Type",
+              "HOMEMADE": "Homemade",
+              "PURCHASED": "Purchased"
+            }
+          }
+        }
+      },
+      "MakeReservationStepper": {
+        "DetailsProduct": {
+          "title": "Product Details",
+          "productTitle": "Title",
+          "productDescription": "Description",
+          "productCategory": "Category",
+          "productExpirationDate": "Expiration Date",
+          "next": "Next"
+        },
+        "ReceiptDetails": {
+          "title": "Receipt Details",
+          "reservation": "Reserve",
+          "back": "Back",
+          "fromDay": "From day",
+          "toDay": "To day",
+          "fromHour": "From hour",
+          "toHour": "To hour",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "seeAddressOnMap": "See address on map",
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          }
+        },
+        "DeliveryDetails": {
+          "title": "Delivery Details",
+          "reservation": "Reserve",
+          "back": "Back",
+          "from": "From",
+          "to": "To",
+          "Address": {
+            "title": "Address",
+            "street": "Street",
+            "number": "Number",
+            "city": "City",
+            "postalCode": "Postal Code"
+          },
+          "seeAddressOnMap": "See address on map",
+          "Map": {
+            "fillAddress": "Fill in address from map"
+          }
+        },
+        "FinishStep": {
+          "title": "Completed",
+          "message": "Delivery has been reserved"
+        },
+        "ReservationSnackbar": {
+          "success": "Product has been reserved",
+          "error": "Error in product reservation"
+        }
+      }
+    }
+  },
+  "Stepper": {
+    "reception": "Reception"
+  },
+  "Product": {
+    "Hide": {
+      "error": "Error hiding the product",
+      "success": "Product hidden"
+    },
+    "Visible": {
+      "error": "Error making the product visible",
+      "success": "Product visible"
+    }
+  }
+}

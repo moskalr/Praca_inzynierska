@@ -1,0 +1,14 @@
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rounded-map {
+  border-radius: 8px;
+  position: absolute;
+  top: 270px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}

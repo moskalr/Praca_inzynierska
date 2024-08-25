@@ -1,0 +1,30 @@
+app:
+  networks:
+    - backend-network
+server:
+  port: 8090
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${KEYCLOAK_ISSUER_URI}
+          jwk-set-uri: ${KEYCLOAK_JWK_SET_URI}
+  kafka:
+    producer:
+      bootstrap-servers: kafka:9092
+      key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      bootstrap-servers: kafka:9092
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.IntegerDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+jwt:
+  auth:
+    converter:
+      realm: client_app
+      resource-id: food_rescue
+      principle-attribute: preferred_username

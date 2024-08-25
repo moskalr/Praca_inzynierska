@@ -1,0 +1,196 @@
+{
+  "private_fridge": {
+    "rows_per_page": "Ilość lodówek na stronę:",
+    "account_rows_per_page": "Ilość użytkowników na stronę:",
+    "name": "Nazwa lodówki",
+    "role": "Rola",
+    "role_info": "Twoja rola: ",
+    "username": "Nazwa użytkownika",
+    "your_account": "Twoje konto",
+    "filter_menu": {
+      "all": "Wszystkie",
+      "archived": "Zarchiwizowane",
+      "active": "Dostępne"
+    },
+    "accounts_empty_list": "Nie znaleziono żadnych użytkowników dla wybranych parametrów",
+    "empty_list": "Nie znaleziono żadnej lodówki dla wybranych parametrów",
+    "archived_info": "Ta lodówka jest zarchiwizowana!",
+    "edit": "Edytuj lodówkę",
+    "quit": "Opuść lodówkę",
+    "edit_user": "Edytuj użytkownika",
+    "roles": {
+      "owner": "Właściciel",
+      "user": "Użytkownik",
+      "supplier": "Dostawca",
+      "cook": "Kucharz"
+    },
+    "tabs_titles": {
+      "users": "UŻYTKOWNICY",
+      "sent_invitations": "WYSŁANE ZAPROSZENIA",
+      "recipes": "PRZEPISY",
+      "fridge": "LODÓWKA",
+      "history": "HISTORIA",
+      "fridges": "MOJE LODÓWKI",
+      "invitations": "NOWE ZAPROSZENIA"
+    }
+  },
+  "create_private_fridge": {
+    "button_title": "Stwórz lodówkę prywatną",
+    "form_description_content": "Gdy stworzysz lodówkę automatycznie stajesz się jej właścicielem.",
+    "fridge_title": "Nazwa lodówki",
+    "fridge_description": "Opis lodówki",
+    "clear": "Wyczyść",
+    "cancel": "Anuluj",
+    "create": "Stwórz",
+    "undo": "Cofnij",
+    "change_role": "Zmień rolę",
+    "cancel_invitation": "Anuluj zaproszenie"
+  },
+  "edit_fridge": {
+    "dialog_title": "Edytuj informacje o lodówce",
+    "edit": "Edytuj"
+  },
+  "archive_fridge": {
+    "restore": "Przywróć lodówkę",
+    "archive": "Zarchiwizuj lodówkę",
+    "quit": "Opuść lodówkę",
+    "title": "Czy chcesz opuścić lodówkę?",
+    "description": "Jest to czynnosc nieodwracalna. Po opuszczeniu lodówki nie będziesz w stanie do niej wrócić bez ponownego zaproszenia."
+  },
+  "invitation": {
+    "sent_empty_list": "Nie znaleziono żadnych wysłanych zaproszeń dla wybranych parametrów",
+    "rows_per_page": "Ilość zaproszeń na stronę:",
+    "post_date": "Data wysłania",
+    "addressee": "Adresat",
+    "accept": "Akceptuj",
+    "reject": "Odrzuć",
+    "empty_list": "Nie znaleziono żadnych nowych zaproszeń",
+    "sent": "Wyślij zaproszenie",
+    "role": "Rola użytkownika",
+    "sent_title": "Wyślij zaproszenie do lodówki",
+    "receiver": "Odbiorca",
+    "status": "Status",
+    "cancel_description": "The sent invitation to the private refrigerator will be canceled."
+  },
+  "products": {
+    "rows_per_page": "Ilość produktów na stronę:",
+    "title": "Produkty",
+    "empty_list": "Lista produktów jest pusta.",
+    "category_title": "Kategoria: ",
+    "expiration_date_title": "Termin ważności: ",
+    "form": {
+      "title": "Dodaj produkt do lodówki prywatnej",
+      "description": "Kod kreskowy na produkcie możesz zeskanować, a aplikacja wypełni dopasowane informacje",
+      "name": "Nazwa",
+      "product_description": "Opis",
+      "quantity": "Pojemność",
+      "unit": "Jednostka",
+      "amount": "Ilość",
+      "category": "Kategoria",
+      "expiration_date": "Data ważności",
+      "shelf_life_after_opening": "Ilość dni przydatności po otwarciu",
+      "days": "dzień/dni",
+      "image": "Zdjęcie",
+      "add": "Dodaj produkt",
+      "scan": "Zeskanuj kod kreskowy na produkcie"
+    },
+    "category": {
+      "vegetables": "Warzywa",
+      "fruits": "Owoce",
+      "fish": "Ryby",
+      "dairy": "Nabiał",
+      "meat": "Mięsa",
+      "grain_products": "Produkty zbożowe",
+      "processed_foods": "Przetworzona żywność"
+    }
+  },
+  "filter": {
+    "fiter_title": "Filtruj według kategorii:",
+    "fiter_status_title": "Filtruj według statusu:",
+    "filter_role_title": "Filtruj według roli:",
+    "sort_title": "Sortuj:",
+    "search_name": "Szukaj po nazwie produktu...",
+    "all": "Wszystkie",
+    "vegetables": "Warzywa",
+    "fruits": "Owoce",
+    "fish": "Ryby",
+    "dairy": "Nabiał",
+    "meat": "Mięsa",
+    "grain_products": "Produkty zbożowe",
+    "processed_foods": "Przetworzona żywność",
+    "desc_creation_date": "Malejąco według daty utworzenia",
+    "asc_creation_date": "Rosnąco według daty utworzenia",
+    "asc_name": "Rosnąco według nazwy",
+    "desc_name": "Malejąco według nazwy",
+    "asc_date": "Rosnąco według daty ważności",
+    "desc_date": "Malejąco według daty ważności",
+    "asc_is_open": "Według otwartych",
+    "desc_is_open": "Według zamkniętych",
+    "accepted": "Akceptowane",
+    "rejected": "Odrzucone",
+    "canceled": "Anulowane",
+    "new": "Nowe",
+    "owner": "Właściciel",
+    "user": "Użytkownik",
+    "supplier": "Dostawca",
+    "cook": "Kucharz"
+  },
+  "validation": {
+    "required": "To pole jest wymagane",
+    "fridge": {
+      "title_min": "Tytuł lodówki musi mieć długość przynajmniej 3 znaków.",
+      "title_max": "Tytuł lodówki nie może przekraczać 40 znaków.",
+      "description_min": "Opis lodówki musi mieć długość przynajmniej 3 znaków.",
+      "description_max": "Opis lodówki nie może przekraczać 255 znaków."
+    },
+    "account": {
+      "username_min": "Nazwa użytkownika nie może być krótsza niż 6 znaków.",
+      "username_max": "Nazwa użytkownika nie może przekraczać 16 znaków."
+    },
+    "product": {
+      "name_min": "Nazwa produktu musi mieć długość przynajmniej 3 znaków.",
+      "name_max": "Nazwa produktu nie może przekraczać 40 znaków.",
+      "description": "Opis produktu nie może przekraczać 255 znaków.",
+      "quantity_min": "Pojemność produktu nie może być mniejsza niż 1.",
+      "quantity_max": "Pojemność produktu nie może być większa niż 100 000.",
+      "unit_of_measure": "Nieprawidłowa jednostka",
+      "amount_min": "Ilośc produktów dodawanych jednorazowo nie może być mniejsza niż 1.",
+      "amount_max": "Ilość produktów dodawanych jednorazowo nie może być większa niż 100.",
+      "days_to_eat_min": "Ilość dni przydatności produktu po jego otwarciu nie może być mniejsza niż 1.",
+      "days_to_eat_max": "Ilość dni przydatności produktu po jego otwarciu nie może przekraczać 360."
+    }
+  },
+  "error_message": {
+    "error": "Wystąpił błąd podczas wyświetlania listy lodówek prywatnych.",
+    "invitations_error": "Wystąpił błąd podczas wyświetlania listy zaproszeń.",
+    "private_fridge_create_error": "Wystąpił błąd podczas tworzenia lodówki",
+    "scan": "Wystąpił błąd podczas skanowania.",
+    "image_upload": "Wystąpił błąd podczas przesyłania zdjęcia.",
+    "add_product": "Wystąpił błąd podczas dodawania zdjęcia",
+    "find_product": "Wystąpił błąd podczas wyszukiwania produktu",
+    "unauthorized": "Zaloguj się ponownie."
+  },
+  "success_message": {
+    "private_fridge_create": "Lodówka pomyślnie została stworzona.",
+    "image_upload": "Zdjęcie zostało pomyślnie przesłane.",
+    "add_product": "Product został pomyślnie dodany",
+    "send_invitation": "Zaproszenie zostało wysłane"
+  },
+  "info_message": {
+    "find_product": "Produkt nie został znaleziony"
+  },
+  "exception": {
+    "outdated_data": "Dane są nieaktualne.",
+    "account": {
+      "not_found": "Nie znaleziono użytkownika o takiej nazwie."
+    },
+    "invitation": {
+      "addresseeAndReceiverAreTheSameAccountException": "Nie można wysyłać zaproszeń do samego siebie.",
+      "receiverIsAlreadyInFridgeException": "Użytkownik o tej nazwie już został dodany.",
+      "invitationForThisReceiverIsAlreadySentException": "Użytkownik o tej nazwie otrzymał już zaproszenie."
+    },
+    "private_fridge": {
+      "archived": "Lodówka została zarchiwizowana"
+    }
+  }
+}

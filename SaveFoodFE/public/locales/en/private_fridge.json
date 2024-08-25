@@ -1,0 +1,195 @@
+{
+  "private_fridge": {
+    "rows_per_page": "No. fridges per page:",
+    "account_rows_per_page": "No. users per page:",
+    "name": "Fridge name",
+    "role": "Role",
+    "role_info": "Your role: ",
+    "username": "Username",
+    "your_account": "Your account",
+    "filter_menu": {
+      "all": "All",
+      "archived": "Archived",
+      "active": "Accessible"
+    },
+    "accounts_empty_list": "No users found for the selected parameters",
+    "empty_list": "No refrigerators found for the selected filtering parameters",
+    "archived_info": "This fridge is archived!",
+    "edit": "Edit fridge",
+    "quit": "Quit this fridge",
+    "edit_user": "Edit user",
+    "roles": {
+      "owner": "Owner",
+      "user": "User",
+      "supplier": "Supplier",
+      "cook": "Cook"
+    },
+    "tabs_titles": {
+      "users": "USERS",
+      "sent_invitations": "SENT INVITATIONS",
+      "recipes": "RECIPES",
+      "fridge": "FRIDGE",
+      "history": "HISTORY",
+      "fridges": "MY FRIDGES",
+      "invitations": "NEW INVITATIONS"
+    }
+  },
+  "create_private_fridge": {
+    "button_title": "Create private fridge",
+    "form_description_content": "When you create a fridge, you automatically become its owner.",
+    "fridge_title": "Fridge name",
+    "fridge_description": "Fridge description",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "create": "Create",
+    "undo": "Undo",
+    "change_role": "Change role",
+    "cancel_invitation": "Cancel invitation"
+  },
+  "edit_fridge": {
+    "dialog_title": "Edit fridge information",
+    "edit": "Edit"
+  },
+  "archive_fridge": {
+    "restore": "Restore fridge",
+    "archive": "Archive fridge",
+    "quit": "Quit the fridge",
+    "title": "Do you want to leave the fridge?",
+    "description": "This is an irreversible action. Once you leave the fridge, you won't be able to return without a new invitation."
+  },
+  "invitation": {
+    "sent_empty_list": "No sent invitations found for the selected parameters",
+    "rows_per_page": "No. invitations per page:",
+    "post_date": "Post date",
+    "addressee": "Addressee",
+    "accept": "Accept",
+    "reject": "Reject",
+    "empty_list": "No new invites found",
+    "sent": "Send invitation",
+    "role": "User role",
+    "sent_title": "Send an invitation to the fridge",
+    "receiver": "Receiver",
+    "status": "Status",
+    "cancel_description": "Wysłane zaproszenie do lodówki prywatnej zostanie anulowane."
+  },
+  "products": {
+    "rows_per_page": "No. products per page:",
+    "title": "Products",
+    "empty_list": "The product list is empty.",
+    "category_title": "Category: ",
+    "expiration_date_title": "Expiration date: ",
+    "form": {
+      "title": "Add a product to your private fridge",
+      "description": "You can scan the barcode on the product, and the app will fill in the relevant information",
+      "name": "Name",
+      "product_description": "Description",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "amount": "Amount",
+      "category": "Category",
+      "expiration_date": "Expiration Date",
+      "shelf_life_after_opening": "Shelf life after opening",
+      "days": "day/s",
+      "image": "Image",
+      "add": "Add Product",
+      "scan": "Scan the product barcod"
+    },
+    "category": {
+      "vegetables": "Vegetables",
+      "fruits": "Fruits",
+      "fish": "Fish",
+      "dairy": "Dairy",
+      "meat": "Meat",
+      "grain_products": "Grain Products",
+      "processed_foods": "Processed Foods"
+    }
+  },
+  "filter": {
+    "fiter_title": "Filter by category:",
+    "fiter_status_title": "Filter by status:",
+    "filter_role_title": "Filter by role:",
+    "sort_title": "Sort:",
+    "search_name": "Search by product name...",
+    "all": "All",
+    "vegetables": "Vegetables",
+    "fruits": "Fruits",
+    "fish": "Fish",
+    "dairy": "Dairy",
+    "meat": "Meat",
+    "grain_products": "Grain Products",
+    "processed_foods": "Processed Foods",
+    "desc_creation_date": "Descending by creation date",
+    "asc_creation_date": "Ascending by creation date",
+    "asc_name": "Ascending by name",
+    "desc_name": "Descending by name",
+    "asc_date": "Ascending by expiration date",
+    "desc_date": "Descending by expiration date",
+    "asc_is_open": "By open status",
+    "desc_is_open": "By closed status",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "canceled": "Canceled",
+    "new": "New",
+    "owner": "Owner",
+    "user": "User",
+    "supplier": "Supplier",
+    "cook": "Cook"
+  },
+  "validation": {
+    "required": "This field is required",
+    "fridge": {
+      "title_min": "Fridge title must be at least 3 characters long.",
+      "title_max": "Fridge title cannot exceed 40 characters.",
+      "description_min": "Fridge description must be at least 3 characters long.",
+      "description_max": "Fridge description cannot exceed 255 characters."
+    },
+    "account": {
+      "username_min": "Username must be at least 6 characters long.",
+      "username_max": "Username cannot exceed 16 characters."
+    },
+    "product": {
+      "name_min": "Product name must be at least 3 characters long.",
+      "name_max": "Product name cannot exceed 40 characters.",
+      "description": "Product description cannot exceed 255 characters.",
+      "quantity_min": "Product quantity cannot be less than 1.",
+      "quantity_max": "Product quantity cannot exceed 100,000.",
+      "unit_of_measure": "Invalid unit",
+      "amount_min": "The number of products added at once cannot be less than 1.",
+      "amount_max": "The number of products added at once cannot exceed 100.",
+      "days_to_eat_min": "The number of days of product suitability after opening cannot be less than 1.",
+      "days_to_eat_max": "The number of days of product suitability after opening cannot exceed 360."
+    }
+  },
+  "error_message": {
+    "error": "There was an error displaying the list of private fridges.",
+    "invitations_error": "There was an error displaying the list of invitations.",
+    "private_fridge_create_error": "An error occurred while creating the fridge.",
+    "scan": "An error occurred during scanning.",
+    "image_upload": "An error occurred while uploading the photo.",
+    "add_product": "An error occurred while adding a photo.",
+    "find_product": "An error occurred while searching for the product.",
+    "unauthorized": "Log in again."
+  },
+  "success_message": {
+    "private_fridge_create": "The fridge was successfully created.",
+    "image_upload": "The photo has been successfully uploaded.",
+    "add_product": "Product has been successfully added."
+  },
+  "info_message": {
+    "find_product": "Product was not found."
+  },
+  "exception": {
+    "outdated_data": "The data is outdated.",
+    "account": {
+      "not_found": "User with this name not found."
+    },
+    "invitation": {
+      "addresseeAndReceiverAreTheSameAccountException": "Cannot send invitations to oneself.",
+      "receiverIsAlreadyInFridgeException": "User with this name is already added.",
+      "invitationForThisReceiverIsAlreadySentException": "User with this name has already received an invitation."
+    },
+    "private_fridge": {
+      "archived": "The fridge has been archived."
+    }
+  }
+}

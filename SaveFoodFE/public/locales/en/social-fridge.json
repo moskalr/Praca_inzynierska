@@ -1,0 +1,240 @@
+{
+  "preferences": {
+    "successes": {
+      "category_success": "Successfully removed category from favorites",
+      "fridge_success": "Successfully removed fridge from favorites",
+      "delete_success": "Successfully added fridges or categories to favorites."
+    },
+    "messages": {
+      "no_favorite_social_fridges": "No favorite social fridges.",
+      "no_favorite_categories": "No favorite categories.",
+      "favorite_social_fridges": "Favorite social fridges:",
+      "favorite_categories": "Favorite categories:"
+    },
+    "details": {
+      "category": "Category: ",
+      "address": "Address: ",
+      "favorites": "FAVORITES",
+      "statistics": "STATISTICS",
+      "donatedFood": "Donated Food",
+      "savedFood": "Saved Food",
+      "managedSocialFridges": "Managed Social Fridges",
+      "products": "Products",
+      "suggestions": "Suggestions",
+      "map": "Map",
+      "fridges": "Fridges"
+    },
+    "dialogs": {
+      "update_preferences_title": "Update Favorite Fridges and Categories",
+      "select_categories_label": "Categories",
+      "select_categories_placeholder": "Select categories",
+      "select_fridges_label": "Fridges",
+      "select_fridges_placeholder": "Select fridges",
+      "cancel_button": "Cancel",
+      "update_button": "Update"
+    }
+  },
+  "managedSocialFridge": {
+    "messages": {
+      "address": "Address: ",
+      "archivedFridge": "Archived",
+      "unarchivedFridge": "Not archived",
+      "activeFridge": "Active",
+      "unactiveFridge": "Not active",
+      "requiredField": "This field is required",
+      "invalidPostalCode": "Invalid postal code",
+      "cityNameTooLong": "City name is too long",
+      "invalidBuildingNumber": "Invalid building number",
+      "streetNameTooLong": "Street name is too long",
+      "addFridge": "Add fridge",
+      "manager": "Select manager",
+      "street": "Street",
+      "city": "City",
+      "buildingNumber": "Building number",
+      "postalCode": "Postal code",
+      "chooseLocation": "Choose location on the map"
+    },
+    "successes": {
+      "newFridge": "Successfully added social fridge"
+    }
+  },
+  "suggestions": {
+    "messages": {
+      "isNew": "Unread message",
+      "isArchive": "Read message",
+      "address": "Address: ",
+      "goToFridge": "Go to fridge",
+      "suggestionContent": "Suggestion content:",
+      "unreadSuggestions": "Unread suggestions",
+      "readSuggestions": "Read suggestions",
+      "confirmArchive": "Are you sure you want to mark the suggestion as read?"
+    },
+    "successes": {
+      "success": "Successfully archived suggestion."
+    }
+  },
+  "landing_page": {
+    "grade": "Rating: ",
+    "search": "Filter",
+    "fridges": "Social Fridges",
+    "events": "Events",
+    "select": "Select",
+    "filters_title": "Filters",
+    "distance": "Distance (km)",
+    "validNumber": "Enter a valid number (greater than 0.01km)",
+    "area_success": "No fridges in the designated distance",
+    "area_error": "An error occurred while displaying fridges in the area"
+  },
+  "statistics": {
+    "products_count": "Number of products",
+    "category_name": "Category name",
+    "fridge_address": "Fridge address",
+    "amount_of_products": "Amount of products in kg",
+    "waste_food": "Waste food",
+    "available_food_percentage": "Available food presented in %",
+    "waste_food_percentage": "Waste food in the fridge presented in %",
+    "saved_food_percentage": "Saved food presented in %",
+    "number_of_months": "Number of months",
+    "months": "months",
+    "apply": "Apply"
+  },
+  "infiniteScroll": {
+    "loading": "Loading...",
+    "end": "You've seen everything"
+  },
+  "fridge": {
+    "actions": {
+      "deactivate": "Deactivate",
+      "activate": "Activate",
+      "restore": "Restore",
+      "archive": "Archive",
+      "newSuggestion": "Add suggestion",
+      "image": "Choose a photo",
+      "newProduct": "Donate product",
+      "scan": "Scan"
+    },
+    "confirm_actions": {
+      "confirm_deactivate": "deactivate",
+      "confirm_activate": "activate",
+      "confirm_archive": "archive",
+      "confirm_action": "Are you sure you want to {{action}} the fridge?",
+      "confirm_pull": "Are you sure you want to pull the product?"
+    },
+    "successes": {
+      "product_success": "Product successfully pulled from the fridge",
+      "success": "Successful update of social fridge",
+      "newSuggestion": "Suggestion sent",
+      "newProduct": "New product added",
+      "newFridge": "Added a new community fridge",
+      "rating_success": "Fridge successfully rated",
+      "notifications_success": "Fridge update sent successfully",
+      "editFridgeAddressSuccess": "Successfully changed fridge address",
+      "editFridgeManagerSuccess": "Successfully changed fridge manager"
+    },
+    "messages": {
+      "products": "Products:",
+      "requiredField": "This field is required",
+      "minLength": "Minimum length is {{action}} characters",
+      "maxLength": "Maximum length is {{action}} characters",
+      "validNumber": "Enter a valid number (from 0.0001 to 50)",
+      "rate": "Rate",
+      "delete": "Delete",
+      "update_fridge_title": "Update fridge",
+      "select_products_not_in_fridge": "Select products not in the fridge",
+      "send_update": "Send update",
+      "edit_fridge_title": "Edit fridge",
+      "manager": "Select manager",
+      "street": "Street",
+      "city": "City",
+      "buildingNumber": "Building number",
+      "postalCode": "Postal code",
+      "chooseLocation": "Choose location on the map",
+      "validPieces": "Enter a positive integer",
+      "socialFridgeArchived": "Fridge has been archived.",
+      "socialFridgeActive": "Social fridge is active.",
+      "socialFridgeInactive": "Social fridge is inactive, please try again later."
+    },
+    "details": {
+      "detailsTitle": "Product details",
+      "expirationDate": "Expiration date: ",
+      "size": "Quantity: ",
+      "description": "Description: ",
+      "closeButton": "Close",
+      "title": "Name",
+      "address": "Address: ",
+      "pieces": "Pieces: "
+    }
+  },
+  "confirmationDialog": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "categories": {
+    "VEGETABLES": "Vegetables",
+    "FRUITS": "Fruits",
+    "DAIRY": "Dairy",
+    "MEAT": "Meat",
+    "FISH": "Fish",
+    "GRAIN_PRODUCTS": "Grain Products",
+    "PROCESSED_FOODS": "Processed Foods"
+  },
+  "categoryLabel": "Category",
+  "product": {
+    "messages": {
+      "products": "Products:"
+    },
+    "search": {
+      "searchPlaceholder": "Name",
+      "searchButton": "Search"
+    },
+    "details": {
+      "detailsTitle": "Product details",
+      "categoryLabel": "Category",
+      "expirationDate": "Expiration date: ",
+      "size": "Quantity: ",
+      "description": "Description: ",
+      "closeButton": "Close"
+    }
+  },
+  "grade": "Rating: ",
+  "errors": {
+    "error": "An error occurred while displaying social fridge",
+    "update_error": "An error occurred while updating social fridge",
+    "product_update_error": "An error occurred while pulling the product",
+    "location_error": "Location error, please try again",
+    "newSuggestionError": "An error occurred while adding a suggestion",
+    "newProductError": "An error occurred while adding a new product",
+    "rating_error": "An error occurred while rating the fridge",
+    "notifications_error": "An error occurred while sending fridge updates",
+    "editFridgeManagerError": "An error occurred while changing fridge manager",
+    "editFridgeAddressError": "An error occurred while changing fridge address",
+    "productScan": "An issue occurred during scanning",
+    "exception.invalidDistanceFromSocialFridge": "You are too far from the social fridge",
+    "exception.socialFridgeDeletedModification": "Cannot modify a deleted social fridge",
+    "exception.socialFridgeInactive": "Social fridge is inactive",
+    "exception.socialFridgeNotFound": "Social fridge with this identifier not found",
+    "exception.unhandled_exception": "An error occurred during the operation",
+    "exception.accountNotFound": "Account not found",
+    "exception.addressExist": "Selected social fridge address is already in use",
+    "exception.addressInvalidModification": "Invalid address entered",
+    "exception.accountNotManagerRole": "Selected account does not have a manager role",
+    "exception.ratingOutOfRange": "Selected rating is outside the range of 0-5",
+    "exception.ratingSameUpdate": "Trying to update the rating to the same value",
+    "exception.productNotFound": "Product with the given identifier not found",
+    "exception.productDeletedModification": "Attempt to modify a deleted product",
+    "unauthorized": "Log in again",
+    "cloudinary": "There was a problem uploading the photo",
+    "managed_fridge_error": "An error occurred while displaying managed social fridges",
+    "newFridgeError": "An error occurred while adding a social fridge.",
+    "locationNotFoundError": "An error occurred while searching for the location",
+    "category_error": "An error occurred while removing a favorite category",
+    "fridge_error": "An error occurred while removing a favorite fridge",
+    "fav_categories_fridge_update_error": "An error occurred while adding favorite fridges and categories",
+    "preferences_error": "An error occurred while displaying preferences",
+    "suggestion_error": "An error occurred while displaying suggestions.",
+    "updateError": "An error occurred while archiving the suggestion.",
+    "product_error": "An error occurred while displaying products.",
+    "exception.outdated_data": "The displayed data is outdated."
+  },
+  "map.confirmationDialog.confirm": "Confirm"
+}

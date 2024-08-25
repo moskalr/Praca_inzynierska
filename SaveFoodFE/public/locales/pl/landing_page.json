@@ -1,0 +1,15 @@
+{
+  "landing_page": {
+    "search": "Filtruj",
+    "fridges": "Lodówki społeczne",
+    "events": "Wydarzenia",
+    "products": "Produkty",
+    "select": "Wybierz",
+    "filters_title": "Filtry",
+    "distance": "Dystans (km)",
+    "validNumber": "Wprowadź poprawną liczbę (większą niż 0.01km)",
+    "area_success": "Brak lodówek w wyznaczonej odległości",
+    "area_error": "Wystąpił błąd podczas wyswietlanie lodówek w danym obrębie"
+  },
+  "grade": "Ocena: "
+}

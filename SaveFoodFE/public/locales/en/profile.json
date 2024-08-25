@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "role": {
+      "title": "Roles",
+      "user": "USER",
+      "volunteer": "VOLUNTEER",
+      "moderator": "MODERATOR",
+      "manager": "MANAGER",
+      "admin": "ADMIN"
+    },
+    "error_message": {
+      "error": "An error occurred while displaying your own account.",
+      "passwordError": "An error occurred while sending an email to change the password.",
+      "email": "Invalid email address.",
+      "emailError": "An error occurred while changing the email address.",
+      "sameEmail": "This is your current email address.",
+      "emailAlreadyInUse": "This email address is already associated with another account.",
+      "accessDenied": "You do not have permission to change roles.",
+      "notAllowedRoles": "You cannot change to a role higher than your current role.",
+      "roleError": "An error occurred while changing the role.",
+      "refreshToken": "An error occurred, please log in again."
+    },
+    "info_message": {
+      "password": "An email has been sent to change the password.",
+      "email": "The email address has been changed.",
+      "roleBecomeUser": "You are now a user.",
+      "roleBecomeVolunteer": "You are now a volunteer.",
+      "roleRevokeUser": "You are no longer a user.",
+      "roleRevokeVolunteer": "You are no longer a volunteer."
+    },
+    "pl": "polish",
+    "en": "english",
+    "changePassword": "Change Password",
+    "loading": "Loading...",
+    "becomeVolunteer": "Become volunteer",
+    "becomeUser": "Become user",
+    "revokeVolunteer": "Revoke volunteer",
+    "revokeUser": "Revoke user"
+  }
+}

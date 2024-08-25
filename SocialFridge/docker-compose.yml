@@ -1,0 +1,65 @@
+version: '3.7'
+
+services:
+  social-fridge-microservice:
+    hostname: social-fridge-microservice
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./:/home/app/src
+    networks:
+      - backend-network
+    ports:
+      - "8091:8091"
+
+  postgres:
+    image: postgres:15
+    container_name: sf_postgres
+    hostname: sf_postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    env_file: .env
+    ports:
+      - "5433:5432"
+    networks:
+      - backend-network
+
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4:7.4
+    hostname: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    env_file: .env
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+      - ./servers.json:/pgadmin4/servers.json
+      - ./pgpass:/pgpass
+    ports:
+      - "5051:80"
+    restart: unless-stopped
+    networks:
+      - backend-network
+
+volumes:
+  postgres_data:
+    driver: local
+  pgadmin:
+    driver: local
+  pgpass:
+    driver: local
+
+networks:
+  backend-network:
+    external:
+      name: account_backend-network

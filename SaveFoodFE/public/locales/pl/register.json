@@ -1,0 +1,33 @@
+{
+  "register": {
+    "title": "Zarejestruj się",
+    "username": "Nazwa użytkownika",
+    "first_name": "Imię",
+    "surname": "Nazwisko",
+    "email": "Adres Email",
+    "password": "Hasło",
+    "confirm_password": "Powtórz hasło",
+    "language": "Język",
+    "polish": "Polski",
+    "english": "Angielski",
+    "old_account": "Masz już konto? Zaloguj się!",
+    "role": {
+      "title": "Rola",
+      "user": "Użytkownik",
+      "volunteer": "Wolontariusz"
+    }
+  },
+  "error_message": {
+    "main": "Formularz został niepoprawnie wypełniony lub jest pusty!",
+    "username": "Nazwa użytkownika jest wymagana i nie może zawierać od 6 do 16 znaków.",
+    "first_name": "Imię jest wymagane i nie może zawierać więcej niż 32 znaki.",
+    "surname": "Nazwisko jest wymagane i nie może zawierać więcej niż 32 znaki.",
+    "email": "Niepoprawny adres email.",
+    "password": "Hasło jest wymagane. Musi posiadać co najmniej: jedną dużą i małą literę, cyfrę oraz znak specjalny. Nie może zawierać białych znaków oraz nie może zawierać mniej niż 8 znaków.",
+    "confirm_password": "Hasła muszą być takie same.",
+    "error": "Wystąpił błąd podczas rejestracji"
+  },
+  "success_message": {
+    "success": "Konto zostało pomyślnie zarejestrowane"
+  }
+}

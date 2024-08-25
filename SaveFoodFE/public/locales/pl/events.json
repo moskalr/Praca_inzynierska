@@ -1,0 +1,407 @@
+{
+  "events": {
+    "filter": {
+      "title": "Filtry",
+      "event": {
+        "section": "Wydarzenie",
+        "title": "Tytuł",
+        "state": "Stan",
+        "startDate": "Data rozpoczęcia",
+        "endDate": "Data zakończenia",
+        "from": "Od",
+        "to": "Do",
+        "active": "Aktywne",
+        "finished": "Zakończone"
+      },
+      "product": {
+        "section": "Produkt",
+        "name": "Nazwa",
+        "categories": "Kategorie"
+      },
+      "location": {
+        "text": "Wprowadź miasto i ulicę, której szukasz",
+        "section": "Lokalizacja",
+        "city": "Miasto",
+        "street": "Ulica"
+      },
+      "time": {
+        "section": "Przedział czasowy"
+      },
+      "apply": "Zastosuj",
+      "search": "Wyszukaj",
+      "reset": "Resetuj"
+    },
+    "sortBy": {
+      "title": "Sortuj",
+      "state": "Stan",
+      "availableSlots": "Dostępne miejsca",
+      "maxParticipants": "Maksymalna liczba uczestników",
+      "availableFoodQuantity": "Dostępna żywność",
+      "ascending": "Rosnąco",
+      "descending": "Malejąco"
+    },
+    "cards": {
+      "title": "Wydarzenia",
+      "details": "Dowiedz się więcej"
+    },
+    "tabs": {
+      "info": "Informacje o wydarzeniu",
+      "localization": "Lokalizacja",
+      "product": "Produkt",
+      "reservation": "Rezerwacja",
+      "reservations": "Rezerwacje",
+      "participants": "Uczestnicy",
+      "back": "Powrót do wydarzeń"
+    },
+    "reservations": {
+      "info": "Szczegóły rezerwacji",
+      "maxParticipants": "Maksymalna liczba uczestników",
+      "availableSlots": "Dostępne miejsca na wydarzeniu",
+      "foodQuantity": "Początkowa ilość żywności",
+      "foodUnit": "Jednostka",
+      "availableFoodQuantity": "Dostępna żywność",
+      "maxReservationQuantity": "Maksymalna ilość żywności do zarezerwowania",
+      "date": "Data",
+      "notFound": "Nie masz żadnej rezerwacji na tym wydarzeniu",
+      "quantity": "Ilość",
+      "reservationState": "Status rezerwacji",
+      "my": "Moja rezerwacja",
+      "create": "Stwórz rezerwację",
+      "edit": "Edytuj rezerwację",
+      "cancel": "Anuluj rezerwację",
+      "setQuantity": "Ustaw ilość żywności jaką chcesz zarezerwować, aktualnie ustawiona wartość to",
+      "quantityDialogTitle": "Rezerwacja żywności",
+      "setNewQuantity": "Ustaw nową ilość żywności jaką chcesz zarezerwować, aktualnie ustawiona wartość to",
+      "quantityChangeDialogTitle": "Edycja rezerwacji żywności",
+      "noReservations": "Na tym wydarzeniu nie ma jeszcze żadnej rezerwacji",
+      "claim": "Odbierz"
+    },
+    "participants": {
+      "add": "Dodaj uczestnika",
+      "username": "Nazwa użytkownika",
+      "noParticipants": "Na tym wydarzeniu nie ma jeszcze żadnego uczestnika"
+    },
+    "fields": {
+      "title": "Tytuł",
+      "content": "Opis",
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data zakończenia",
+      "maxParticipants": "Maksymalna liczba uczestników",
+      "availableSlots": "Dostępne miejsca",
+      "foodQuantity": "Początkowa ilość żywności",
+      "foodUnit": "Jednostka",
+      "maxReservationQuantity": "Maksymalna ilość żywności do zarezerwowania"
+    },
+    "info": {
+      "description": "Opis",
+      "timeAndSlots": "Czas i dostępne miejsca",
+      "organizer": "O organizatorze"
+    },
+    "address": {
+      "city": "Miasto",
+      "street": "Ulica",
+      "streetNumber": "Numer domu",
+      "postalCode": "Kod pocztowy",
+      "latitude": "Szerokość geograficzna",
+      "longitude": "Długość geograficzna"
+    },
+    "product": {
+      "name": "Nazwa produktu",
+      "category": "Kategoria produktu"
+    },
+    "stepper": {
+      "required": "Pola obowiązkowe oznaczone są *",
+      "organize": "Zorganizuj wydarzenie",
+      "eventOrganization": "Organizacja wydarzenia",
+      "createEvent": "Stwórz wydarzenie",
+      "createAddress": "Dodaj adres",
+      "createProduct": "Dodaj produkt",
+      "cancel": "Anuluj",
+      "address": "Adres",
+      "product": "Produkt",
+      "event": "Wydarzenie",
+      "next": "Dalej",
+      "back": "Cofnij",
+      "save": "Zapisz",
+      "image": "Dodaj zdjęcie",
+      "showOnMap": "Sprawdź wprowadzone dane",
+      "backToAddress": "Zamknij mapę",
+      "submitMap": "Potwierdź lokalizację",
+      "createAddressInfo": "Wypełnij formularz danymi adresowymi lub zaznacz punkt na mapie",
+      "confirmDialog": "Czy na pewno chcesz zorganizować wydarzenie ?"
+    },
+    "select": {
+      "foodUnit": "Wybierz jednostkę"
+    },
+    "button": {
+      "signUp": "Zapisz mnie",
+      "signOff": "Wypisz mnie"
+    },
+    "approve": "Akcpetuj",
+    "reject": "Odrzuć",
+    "edit": "Edytuj wydarzenie",
+    "callOff": "Odwołaj wydarzenie",
+    "archive": "Zarchiwizuj wydarzenie",
+    "undo": "Przywróć wydarzenie",
+    "activate": "Aktywuj wydarzenie",
+    "dialog": {
+      "title": "Edytuj wydarzenie",
+      "dateTitle": "Zmień datę i czas wydarzenia",
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data zakończenia",
+      "back": "Powrót do edycji",
+      "submit": "Zapisz",
+      "cancel": "Anuluj",
+      "logInFirst": "Aby zapisać się na to wydarzenie musisz się zalogować.",
+      "toLogIn": "Kliknij tutaj, aby przejść do strony logowania."
+    },
+    "error": {
+      "notFound": "Nie znaleziono wydarzenia"
+    }
+  },
+  "announcements": {
+    "fields": {
+      "title": "Tytuł",
+      "content": "Treść"
+    },
+    "form": {
+      "create": {
+        "create": "Stwórz ogłoszenie",
+        "submit": "Opublikuj",
+        "cancel": "Anuluj"
+      }
+    },
+    "operations": {
+      "edit": "Edytuj",
+      "archive": "Zarchiwizuj",
+      "report": "Zgłoś"
+    },
+    "warningReported": "To ogłoszenie zostało zgłoszone moderatorowi",
+    "reportConfirmation": "Czy na pewno chcesz zgłosić to ogłoszenie moderatorowi?",
+    "archiveConfirmation": "Czy na pewno chcesz zarchiwizować to ogłoszenie?"
+  },
+  "map": {
+    "getAddress": "Pobierz adres"
+  },
+  "snackbar": {
+    "errorMessage": {
+      "signUp": "Wystąpił błąd podczas zapisywania się na wydarzenie",
+      "signOff": "Wystąpił błąd podczas wypisywania się z wydarzenia",
+      "eventUpdate": "Wystąpił błąd podczas aktualizowania wydarzenia",
+      "approved": "Wystąpił błąd podczas potwierdzania wydarzenia",
+      "rejected": "Wystąpił błąd podczas odrzucania wydarzenia",
+      "canceled": "Wystąpił błąd podczas odwoływania wydarzenia",
+      "archived": "Wystąpił błąd podczas archiwizowania wydarzenia",
+      "active": "Wystąpił błąd podczas aktywowania wydarzenia",
+      "eventCreate": "Wystąpił błąd podczas tworzenia wydarzenia",
+      "notFound": "Nie znaleziono wydarzenia",
+      "locationNotFound": "Nie znaleziono podanej lokalizacji",
+      "stepper": {
+        "locationEmpty": "Musisz wybrać miejsce wydarzenia"
+      },
+      "reservationCreate": "Wystąpił błąd podczas tworzenia rezerwacji",
+      "reservationUpdate": "Wystąpił błąd podczas aktualizowania rezerwacji",
+      "reservationClaim": "Wystąpił błąd podczas obierania rezerwacji",
+      "reservationCancel": "Wystąpił błąd podczas anulowania rezerwacji",
+      "cloudinaryUpload": "Wystąpił problem podczas zapisywania zdjęcia",
+      "announcementCreate": "Wystąpił błąd podczas tworzenia ogłoszenia",
+      "announcementUpdate": "Wystąpił błąd podczas edycji ogłoszenia",
+      "announcementReport": "Wystąpił błąd podczas zgłaszania ogłoszenia do moderatora",
+      "announcementArchive": "Wystąpił błąd podczas archiwizowania ogłoszenia",
+      "default": "Wystąpił nieoczekiwany błąd"
+    },
+    "successMessage": {
+      "eventUpdate": "Pomyślnie zaktualizowano wydarzenie",
+      "approved": "Pomyślnie zatwierdzono wydarzenie",
+      "rejected": "Pomyślnie odrzucono wydarzenie",
+      "canceled": "Pomyślnie odwołano wydarzenie",
+      "archived": "Pomyślnie zarchiwizowano wydarzenie",
+      "active": "Pomyślnie aktywowano wydarzenie",
+      "eventCreate": "Pomyślnie stworzono wydarzenie",
+      "addParticipant": "Pomyślnie dodano uczestnika do wydarzenia",
+      "reservationCreate": "Pomyślnie utworzono rezerwację",
+      "reservationUpdate": "Pomyślnie zaktualizowano rezerwację",
+      "reservationClaim": "Pomyślnie odebrano rezerwację",
+      "reservationCancel": "Pomyślnie anulowano rezerwację",
+      "announcementCreate": "Pomyślnie stworzono ogłoszenie",
+      "announcementUpdate": "Pomyślnie zaktualizowano ogłoszenie",
+      "announcementReport": "Pomyślnie zgłoszono ogłoszenie do moderatora",
+      "announcementArchive": "Pomyślnie zarchiwizowano ogłoszenie"
+    }
+  },
+  "objectDetails": {
+    "id": "ID",
+    "creator": "Utworzone przez",
+    "createdAt": "Utworzenie",
+    "lastModifiedBy": "Zmodyfikowane przez",
+    "lastModifiedAt": "Ostatnia modyfikacja"
+  },
+  "confirmationDialog.cancel": "Nie",
+  "confirmationDialog.confirm": "Tak",
+  "date": {
+    "months": {
+      "October": "Październik"
+    }
+  },
+  "units": {
+    "kilograms": "Kilogramów",
+    "liters": "Litrów",
+    "packs": "Paczek",
+    "pieces": "Kawałków",
+    "items": "Sztuk"
+  },
+  "units2": {
+    "kilograms": "Kilogramy",
+    "liters": "Litry",
+    "packs": "Paczki",
+    "pieces": "Kawałki",
+    "items": "Sztuki"
+  },
+  "category": {
+    "vegetables": "Warzywa",
+    "fruits": "Owoce",
+    "dairy": "Nabiał",
+    "proteins": "Białka",
+    "sweets": "Słodycze",
+    "beverages": "Napoje",
+    "grain": "Zbożowe",
+    "prepared": "Gotowe"
+  },
+  "states": {
+    "state": "Stan",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "pending": "Oczekujący na potwierdzenie",
+    "approved": "Zaakceptowany",
+    "rejected": "Odrzucony",
+    "canceled": "Odwołany",
+    "reported": "Zgłoszony",
+    "hidden": "Uryty",
+    "banned": "Zablokowany",
+    "confirmed": "Potwierdzony",
+    "archived": "Zarchiwizowany",
+    "finished": "Zakończony",
+    "claimed": "Odebrany"
+  },
+  "account": {
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "username": "Nazwa użytkownika",
+    "email": "Email",
+    "strikes": "Ostrzeżenia"
+  },
+  "validation": {
+    "required": "Pole obowiązkowe",
+    "minLength": "Za mało znaków",
+    "maxLength": "Za dużo znaków",
+    "pattern": "Wprowadzone dane nie są poprawne"
+  },
+  "sorting": {
+    "newest": "Od najnowszych",
+    "oldest": "Od najstarszych"
+  },
+  "confirmationDialog": {
+    "cancelEvent": "Czy na pewno chcesz odwołać to wydarzenie?",
+    "archiveEvent": "Czy na pewno chcesz zarchiwizować to wydarzenie?",
+    "undoEvent": "Czy na pewno chcesz przywrócić to wydarzenie do stanu aktywnego?",
+    "activateEvent": "Czy na pewno chcesz ustawić stan tego wydarzenia na aktywny?"
+  },
+  "userPanel": {
+    "creation": {
+      "event": {
+        "organizeEvent": "Zorganizuj wydarzenie"
+      },
+      "announcement": {
+        "createAnnouncement": "Stwórz ogłoszenie"
+      }
+    },
+    "statistics": {
+      "my": "Moje statystyki",
+      "eventsCreated": "Stworzonych wydarzeń",
+      "announcementsPublished": "Opublikowanych ogłoszeń",
+      "reservationsMade": "Stworzonych rezerwacji",
+      "eventsAttended": "Odwiedzonych wydarzeń",
+      "averageEventParticipants": "Średnia liczba uczestników",
+      "totalEventsParticipants": "Osób na twoich wydarzeniach",
+      "averageFoodGiven": "Średnia ilość odebranej żywności",
+      "reservationsByParticipants": "Rezerwacji na twoich wydarzeniach",
+      "myClaimedFood": "Moja odebrana żywność",
+      "totalFoodClaimed": "Całkowita ilość odebranej żywności",
+      "totalEventFood": "Całkowita ilość żywności na wydarzeniach",
+      "mostCommonCategory": "Najczęstsza kategoria",
+      "percentageOfSafedFood": "Uratowana żywność",
+      "more": "Pokaż więcej",
+      "less": "Pokaż mniej"
+    },
+    "events": {
+      "my": "Moje wydarzenia",
+      "upcoming": "Nadchodzące wydarzenia",
+      "emptyUpcoming": "Nie ma żadnych zbliżających się wydarzeń",
+      "emptyPending": "Nie ma żadnych oczekujących wydarzeń",
+      "emptyList": "Nie zorganizowałeś jeszcze żadnego wydarzenia",
+      "warningRejected": "Wydarzenie zostało odrzucone",
+      "warningApproved": "Wydarzenie zostało zaakceptowane"
+    },
+    "announcements": {
+      "my": "Moje ogłoszenia",
+      "emptyList": "Nie opublikowałeś jeszcze żadnego ogłoszenia",
+      "emptyReported": "Nie ma żadnego ogłoszenia wymagającego twojej uwagi"
+    },
+    "moderator": {
+      "panel": "Panel moderatora",
+      "pendingEvents": "Wydarzenia oczekujące na zatwierdzenie",
+      "reportedAnnouncements": "Ogłoszenia wymagające uwagi"
+    },
+    "units": {
+      "kilograms": "Kilogramów",
+      "liters": "Litrów",
+      "packs": "Paczek",
+      "pieces": "Kawałków",
+      "items": "Sztuk"
+    },
+    "category": {
+      "Vegetables": "Warzywa",
+      "Fruits": "Owoce",
+      "Dairy": "Nabiał",
+      "Proteins": "Białka",
+      "Sweets": "Słodycze",
+      "Beverages": "Napoje",
+      "Grain": "Zbożowe",
+      "Prepared": "Gotowe"
+    }
+  },
+  "infiniteScroll": {
+    "end": "Wyświetlono wszystkie wyniki"
+  },
+  "lists": {
+    "noResults": "Nie znaleziono żadnych wyników"
+  },
+  "errors": {
+    "location_error": "Twoja lokalizacja nie została odczytana"
+  },
+  "exception": {
+    "account": {
+      "already_a_participant": "Użytkownik jest już zapisany na wydarzenie",
+      "strikes_limit": "Użytkownik wykorzystał limit ostrzeżeń"
+    },
+    "announcement": {
+      "archived": "Ogłoszenie zostało zarchiwizowane",
+      "reported": "Ogłoszenie zostało zgłoszone do moderatora"
+    },
+    "outdated_data": "Dane zostały zmienione",
+    "event": {
+      "not_active": "Wydarzenie nie jest aktywne",
+      "pending": "Wydarzenie oczekuje na potwierdzenie",
+      "not_finished": "Wydarzenie nie zakończyło się",
+      "not_pending": "Wydarzenie nie jest w stanie oczekującym na zatwierdzenie",
+      "all_slots_taken": "Limit miejsc na wydarzeniu został wykorzystany",
+      "slots_taken": "Nie można zmniejszyć limit miejsc ponieważ zostały zajęte"
+    },
+    "reservation": {
+      "quantity_larger_than_food_quantity": "Rezerwowana ilość przekracza dostępną",
+      "not_active": "Rezerwacja nie jest aktywna",
+      "quantity_larger_than_limit": "Rezerwowana ilość przekracza limit",
+      "too_many_actions": "Zbyt wiele rezerwacji"
+    }
+  }
+}

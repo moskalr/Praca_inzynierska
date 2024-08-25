@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "role": {
+      "title": "Role",
+      "user": "UŻYTKOWNIK",
+      "volunteer": "WOLONTARIUSZ",
+      "moderator": "MODERATOR",
+      "manager": "MENADŻER",
+      "admin": "ADMINISTRATOR"
+    },
+    "error_message": {
+      "error": "Wystąpił bład podczas wyświetlania własnego konta.",
+      "passwordError": "Wystąpił bład podczas wysłania wiadomości e-mail do zmiany hasła.",
+      "email": "Niepoprawny adres email.",
+      "emailError": "Wystąpił błąd podczas zmiany adresu e-mail.",
+      "sameEmail": "To jest twój obecny adres e-mail.",
+      "emailAlreadyInUse": "Ten adres e-mail jest już przypisany do innego konta.",
+      "accessDenied": "Nie masz uprawnień do zmiany ról",
+      "notAlloweRoles": "Nie możesz zmienić roli na wyższą niż twoja obecna rola.",
+      "roleError": "Wystąpił błąd podczas zmiany roli.",
+      "refreshToken": "Wystąpił błąd, zaloguj się ponownie."
+    },
+    "info_message": {
+      "password": "Wysłano wiadomość e-mail do zmiany hasła.",
+      "email": "Adres e-mail został zmieniony.",
+      "roleBecomeUser": "Gratulacje, zostałeś użytkownikiem.",
+      "roleBecomeVolunteer": "Gratualcje, zostałeś wolontariuszem",
+      "roleRevokeUser": "Zrezygnowałeś z bycia użytkownikiem.",
+      "roleRevokeVolunteer": "Zrezygnowałeś z bycia wolontariuszem."
+    },
+    "pl": "polski",
+    "en": "angielski",
+    "changePassword": "Zamień hasło",
+    "loading": "Ładowanie...",
+    "becomeVolunteer": "Zostań wolontariuszem",
+    "becomeUser": "Zostań użytkownikiem",
+    "revokeVolunteer": "Zrezygnuj z bycia wolontariuszem",
+    "revokeUser": "Zrezygnuj z bycia użytkownikiem"
+  }
+}

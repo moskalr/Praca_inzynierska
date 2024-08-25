@@ -1,0 +1,18 @@
+{
+  "login": {
+    "title": "Zaloguj się",
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "remember_me": "Zapamiętaj mnie",
+    "sign_in": "Zaloguj",
+    "forgot_password": "Nie pamiętasz hasła?",
+    "old_user": "Nie masz konta? Dołącz do nas!"
+  },
+  "success_message": {
+    "success": "Pomyślnie zalogowano"
+  },
+  "error_message": {
+    "error": "Nieprawidłowa nazwa użytkownika lub hasło",
+    "default_error": "Wystąpił błąd podczas logowania"
+  }
+}

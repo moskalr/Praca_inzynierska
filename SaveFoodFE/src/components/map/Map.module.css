@@ -1,0 +1,41 @@
+@import "~leaflet/dist/leaflet.css";
+
+.map-mzwz {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.map-mzwo {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
+.location-icon {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  top: 93%;
+  height: 7vh;
+  z-index: 400;
+  width: 100%;
+}
+
+.button-mzwo {
+  bottom: 0%;
+  height: 10%;
+  z-index: 400;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+Konto z poziomem dostępu Zarządca, zastosowanie w module MZLS, MZK:
+nazwa użytkownika:clientmanager
+hasło:Password121!
+
+Konto z poziomem dostępu Zarządca, zastosowanie w module MZLS, MZK:
+nazwa użytkownika:clientmanager2
+hasło:Password121!
+
+Konto z poziomem dostępu Użytkownik, zastosowanie w modułach tj. MZLS, MZK, MZPL, MZWZ, MZWO:
+nazwa użytkownika:clientuser
+hasło:Password121!

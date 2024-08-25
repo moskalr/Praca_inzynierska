@@ -1,0 +1,240 @@
+{
+  "preferences": {
+    "successes": {
+      "category_success": "Pomyślnie usunięto kategorię z ulubionych",
+      "fridge_success": "Pomyślnie usunięto lodówkę z ulubionych",
+      "delete_succes": "Pomyślne dodano lodówki lub kategorie do ulubionych."
+    },
+    "messages": {
+      "no_favorite_social_fridges": "Brak ulubionych lodówek społecznych.",
+      "no_favorite_categories": "Brak ulubionych kategorii.",
+      "favorite_social_fridges": "Ulubione społeczne lodówki:",
+      "favorite_categories": "Ulubione kategorie:"
+    },
+    "details": {
+      "category": "Kategoria: ",
+      "address": "Adres: ",
+      "favotities": "ULUBIONE",
+      "statistics": "STATYSTYKI",
+      "donatedFood": "Oddana żywność",
+      "savedFood": "Uratowana żywność",
+      "managedSocialFridges": "Zarządzane lodówki",
+      "products": "Produkty",
+      "suggestions": "Sugestie",
+      "map": "Mapa",
+      "fridges": "Lodówki"
+    },
+    "dialogs": {
+      "update_preferences_title": "Aktualizacja ulubionych lodówek i kategorii",
+      "select_categories_label": "Kategorie",
+      "select_categories_placeholder": "Wybierz kategorie",
+      "select_fridges_label": "Lodówki",
+      "select_fridges_placeholder": "Wybierz lodówki",
+      "cancel_button": "Anuluj",
+      "update_button": "Aktualizuj"
+    }
+  },
+  "managedSocialFridge": {
+    "messages": {
+      "address": "Adres: ",
+      "archivedFridge": "Archiwizowane",
+      "unarchivedFridge": "Nie archiwizowane",
+      "activeFridge": "Aktywne",
+      "unactiveFridge": "Nie aktywne",
+      "requiredField": "To pole jest wymagane",
+      "invalidPostalCode": "Nieprawidłowy kod pocztowy",
+      "cityNameTooLong": "Nazwa miasta jest za długa",
+      "invalidBuildingNumber": "Nieprawidłowy numer budynku",
+      "streetNameTooLong": "Nazwa ulicy jest zbyt długa",
+      "addFridge": "Dodaj lodówkę",
+      "manager": "Wybierz zarządcę",
+      "street": "Ulica",
+      "city": "Miasto",
+      "buildingNumber": "Numer budynku",
+      "postalCode": "Kod pocztowy",
+      "chooseLocation": "Wybierz punkt na mapie"
+    },
+    "successes": {
+      "newFridge": "Pomyślne dodanie lodówki społecznej"
+    }
+  },
+  "suggestions": {
+    "messages": {
+      "isNew": "Wiadomość nieodczytana",
+      "isArchive": "Wiadomość odczytana",
+      "address": "Adres: ",
+      "goToFridge": "Przejdź do lodówki",
+      "suggestionContent": "Treść sugestii:",
+      "unreadSuggestions": "Nieodczytane sugestie",
+      "readSuggestions": "Odczytane sugestie",
+      "confirmArchive": "Czy na pewno chcesz oznaczyć sugestię jako przeczytaną?"
+    },
+    "successes": {
+      "success": "Pomyślna archiwizacja sugestii."
+    }
+  },
+  "landing_page": {
+    "grade": "Ocena: ",
+    "search": "Filtruj",
+    "fridges": "Lodówki społeczne",
+    "events": "Wydarzenia",
+    "select": "Wybierz",
+    "filters_title": "Filtry",
+    "distance": "Dystans (km)",
+    "validNumber": "Wprowadź poprawną liczbę (większą niż 0.01km)",
+    "area_success": "Brak lodówek w wyznaczonej odległości",
+    "area_error": "Wystąpił błąd podczas wyswietlanie lodówek w danym obrębie"
+  },
+  "statistics": {
+    "products_count": "Liczba produktów",
+    "category_name": "Nazwa kategorii",
+    "fridge_address": "Address lodówki",
+    "amount_of_products": "Ilość produktów w kg",
+    "waste_food": "Popsuta żywność",
+    "available_food_percentage": "Dostępna żywność przedstawiona w %",
+    "waste_food_percentage": "Żywność popsuta w lodówce przedstawiona w %",
+    "saved_food_percentage": "Uratowana żywność przedstawiona w %",
+    "number_of_months": "Liczba miesięcy",
+    "months": "miesiące",
+    "apply": "Zastosuj"
+  },
+  "infiniteScroll": {
+    "loading": "Ładowanie...",
+    "end": "Użytkowniku zobaczyłeś już wszystko"
+  },
+  "fridge": {
+    "actions": {
+      "deactivate": "Dezaktywuj",
+      "activate": "Aktywuj",
+      "restore": "Przywróć",
+      "archive": "Archiwizuj",
+      "newSuggestion": "Dodaj sugestię",
+      "image": "Wybierz zdjęcie",
+      "newProduct": "Oddaj produkt",
+      "scan": "Skanuj"
+    },
+    "confirm_actions": {
+      "confirm_deactivate": "dezaktywować",
+      "confirm_activate": "aktywować",
+      "confirm_archive": "archiwizować",
+      "confirm_action": "Czy na pewno chcesz {{action}} lodówkę?",
+      "confirm_pull": "Czy na pewno chcesz wyciągnąć produkt?"
+    },
+    "successes": {
+      "product_success": "Produkt został wyciągnięty z lodówki",
+      "success": "Pomyślna aktualizacja lodówki społecznej",
+      "newSuggestion": "Wysłano sugesię",
+      "newProduct": "Dodano nowy produkt",
+      "newFridge": "Dodano nową społeczną lodówkę",
+      "rating_success": "Pomyślnie oceniono lodówkę",
+      "notifications_success": "Pomyślnie wysłano aktualizacje lodówki",
+      "editFridgeAddressSuccess": "Pomyślna zmiana adresu lodówki",
+      "editFridgeManagerSuccess": "Pomyślna zmiana zarządcy lodówki"
+    },
+    "messages": {
+      "products": "Produkty:",
+      "requiredField": "To pole jest wymagane",
+      "minLength": "Minimalna długość to {{action}} znaki",
+      "maxLength": "Maksymalna długość to {{action}} znaków",
+      "validNumber": "Wprowadź poprawną liczbę (od 0.0001 do 50)",
+      "rate": "Oceń",
+      "delete": "Usuń",
+      "update_fridge_title": "Aktualizuj lodówkę",
+      "select_products_not_in_fridge": "Zaznacz produkty, których nie ma w lodówce",
+      "send_update": "Wyślij aktualizacje",
+      "edit_fridge_title": "Edycja lodówki",
+      "manager": "Wybierz zarządcę",
+      "street": "Ulica",
+      "city": "Miasto",
+      "buildingNumber": "Numer budynku",
+      "postalCode": "Kod pocztowy",
+      "chooseLocation": "Wybierz punkt na mapie",
+      "validPieces": "Wprowadź dodatnią całkowitą liczbę",
+      "socialFridgeArchived": "Lodówka została usunięta.",
+      "socialFridgeActive": "Lodówka społeczna jest aktywna.",
+      "socialFridgeInactive": "Lodówka społeczna jest nieaktywna, spróbuj póżniej."
+    },
+    "details": {
+      "detailsTitle": "Szczegóły produktu",
+      "expirationDate": "Data ważności: ",
+      "size": "Ilość: ",
+      "description": "Opis: ",
+      "closeButton": "Zamknij",
+      "title": "Nazwa",
+      "address": "Adres: ",
+      "pieces": "Sztuki: "
+    }
+  },
+  "confirmationDialog": {
+    "confirm": "Potwierdź",
+    "cancel": "Anuluj"
+  },
+  "categories": {
+    "VEGETABLES": "Warzywa",
+    "FRUITS": "Owoce",
+    "DAIRY": "Nabiał",
+    "MEAT": "Mięso",
+    "FISH": "Ryby",
+    "GRAIN_PRODUCTS": "Produkty zbożowe",
+    "PROCESSED_FOODS": "Przetworzone produkty spożywcze"
+  },
+  "categoryLabel": "Kategoria",
+  "product": {
+    "messages": {
+      "products": "Produkty:"
+    },
+    "search": {
+      "searchPlaceholder": "Nazwa",
+      "searchButton": "Szukaj"
+    },
+    "details": {
+      "detailsTitle": "Szczegóły produktu",
+      "categoryLabel": "Kategoria",
+      "expirationDate": "Data ważności: ",
+      "size": "Ilość: ",
+      "description": "Opis: ",
+      "closeButton": "Zamknij"
+    }
+  },
+  "grade": "Ocena: ",
+  "errors": {
+    "error": "Wystąpił błąd podczas wyświetlania lodówki społecznej",
+    "update_error": "Wystąpił błąd podczas aktualizacji lodówki społecznej",
+    "product_update_error": "Wystąpił błąd podczas wyciągania produktu",
+    "location_error": "Wystąpił błąd lokalizacji, spróbuj ponownie",
+    "newSuggestionError": "Wystąpił błąd podczas dodawania sugestii",
+    "newProductError": "Wystąpił błąd podczas dodawania nowego produktu",
+    "rating_error": "Wystąpił błąd podczas oceniania lodówki",
+    "notifications_error": "Wystąpił błąd podczas wysyłania aktualizacji lodówki",
+    "editFridgeManagerError": "Wystąpił błąd podczas zmiany zarządcy lodówki",
+    "editFridgeAddressError": "Wystąpił błąd podczas zmiany adresu lodówki",
+    "productScan": "Wystąpił problem podczas skanowania",
+    "exception.invalidDistanceFromSocialFridge": "Jesteś zbyt daleko od lodówki społecznej",
+    "exception.socialFridgeDeletedModification": "Nie można modyfikować usuniętej lodówki społecznej",
+    "exception.socialFridgeInactive": "Lodówka społeczna jest nieaktywna",
+    "exception.socialFridgeNotFound": "Nie znaleziono lodówki społecznej o takim identyfikatorze",
+    "exception.unhandled_exception": "Wystąpił błąd podczas wykonywania operacji",
+    "exception.accountNotFound": "Nie znaleziono konta",
+    "exception.addressExist": "Wybrany adres lodówki społecznej jest zajęty",
+    "exception.addressInvalidModification": "Wprowadzono niepoprawny adres",
+    "exception.accountNotManagerRole": "Wybrane konto nie posiada roli zarządcy",
+    "exception.ratingOutOfRange": "Wybrana ocena jest poza przedziału 0-5",
+    "exception.ratingSameUpdate": "Próbujesz zaktualizować ocenę na taką samą",
+    "exception.productNotFound": "Nie znaleziono produktu o podanym identyfikatorze",
+    "exception.productDeletedModification": "Próba modyfikacji usuniętego produktu",
+    "unauthorized": "Zaloguj się pownownie",
+    "cloudinary": "Wystąpił problem z wgrywaniem zdjęcia",
+    "managed_fridge_error": "Wystąpił błąd podczas wyświetlania zarządzanych lodówek społecznych",
+    "newFridgeError": "Wystąpił błąd podczas dodawania lodówki społecznej.",
+    "locationNotFoundError": "Wystąpił błąd podczas szukania lokalizacji",
+    "category_error": "Wystąpił błąd podczas usuwania ulubionej kategorii",
+    "fridge_error": "Wystąpił błąd podczas usuwania ulubionej lodówki",
+    "fav_categories_fridge_update_error": "Wystąpił błąd podczas dodawania ulubionych lodówek i kategorii",
+    "preferences_error": "Wystąpił błąd podczas wysietlania preferencji",
+    "sugestion_error": "Wystąpił błąd podczas wyswietlania sugestii.",
+    "updateError": "Wystąpił błąd podczas archiwizacji sugestii.",
+    "product_error": "Wystąpił błąd, podczas wyswietlania produktów.",
+    "exception.outdated_data": "Wyświetlone dane są nieaktualne."
+  },
+  "map.confirmationDialog.confirm": "Potwierdź"
+}

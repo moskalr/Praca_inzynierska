@@ -1,0 +1,45 @@
+{
+  "accounts": {
+    "title": "Lista kont",
+    "is_enabled": {
+      "enable": "Konto jest aktywne",
+      "disable": "Konto jest nieaktywne"
+    },
+    "role": {
+      "user": "Użytkownik",
+      "volunteer": "Wolontariusz",
+      "admin": "Administrator",
+      "moderator": "Moderator",
+      "manager": "Zarządca"
+    },
+    "button": {
+      "disable": "Zablokuj",
+      "enable": "Odblokuj"
+    }
+  },
+  "error_message": {
+    "empty": "Nie znaleziono żadnych kont",
+    "error": "Bład podczas wczytywania listy kont.",
+    "accounts_not_found": "Nie odnaleziono żadnych elementów spełniających kryteria",
+    "disabling_error": "Wystąpił błąd podczas blokowania konta",
+    "enabling_error": "Wystąpił błąd podczas odblokowywania konta",
+    "default_error": "Wystąpił nieoczekiwany błąd",
+    "roleAddError": "Wystąpił błąd podczas zaznaczenia roli.",
+    "roleRemoveError": "Wystąpił błąd podczas odznaczenia roli.",
+    "roleChangeError": "Wystąpił błąd podczas zmiany ról.",
+    "roleForbiddenError": "Nie możesz zmienić roli tego użytkownika."
+  },
+  "success_message": {
+    "account_disabled": "Pomyślnie zablokowano konto",
+    "account_enabled": "Pomyślnie odblokowano konto",
+    "roleAdd": "Rola została dodana.",
+    "roleRemove": "Rola została usunięta.",
+    "roleChange": "Pomyślnie zmieniono role."
+  },
+  "info_message": {
+    "search": "Szukaj",
+    "search_by_username": "Szukaj po nazwie użytkownika",
+    "submitRole": "Potwierdz zmianę ról.",
+    "amountRolesInfo": "Konto musi miec przynajmniej jedną rolę"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "accounts": {
+    "title": "List of accounts",
+    "is_enabled": {
+      "enable": "Account is active",
+      "disable": "Account is inactive"
+    },
+    "role": {
+      "user": "User",
+      "volunteer": "Volunteer",
+      "admin": "Administrator",
+      "moderator": "Moderator",
+      "manager": "Manager"
+    },
+    "button": {
+      "disable": "Disable",
+      "enable": "Enable"
+    }
+  },
+  "error_message": {
+    "empty": "No accounts found",
+    "error": "Error while loading the list of accounts.",
+    "accounts_not_found": "No results found",
+    "disabling_error": "An error occured during disabling account",
+    "enabling_error": "An error occured during enabling account",
+    "default_error": "An unexpected error occured",
+    "roleAddError": "An error occurred while selecting the role.",
+    "roleRemoveError": "An error occurred while deselecting the role.",
+    "roleChangeError": "An error occurred while changing roles.",
+    "roleForbiddenError": "You are not allowed to change this role.",
+    "unauthorized": "Please log in again"
+
+  },
+  "success_message": {
+    "account_disabled": "Account disabled successfully",
+    "account_enabled": "Account enabled successfully",
+    "roleAdd": "The role has been added.",
+    "roleRemove": "The role has been removed.",
+    "roleChange": "The role has been changed."
+  },
+  "info_message": {
+    "search": "Search",
+    "search_by_username": "Search by Username",
+    "submitRole": "Submit roles change.",
+    "amountRolesInfo": "The account must have at least one role"
+  }
+}

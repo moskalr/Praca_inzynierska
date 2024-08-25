@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  save-food-nextjs:
+    container_name: save-food-nextjs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ulimits:
+      nofile:
+        soft: 65536 
+        hard: 65536
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    ports:
+      - "3000:3000"
+    networks:
+      - frontend-network
+
+volumes:
+  node_modules:
+
+networks:
+  frontend-network:
+      external:
+        name: account_backend-network

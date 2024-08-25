@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "title": "Ratujmy Żywność",
+    "profile": "Profil",
+    "home": "Strona główna",
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "register": "Zarejestruj się",
+    "change_role": "Zmień rolę",
+    "private_fridges": "Lodówki prywatne",
+    "social_fridges": "Lodówki społeczne",
+    "role": {
+      "select_title": "Wybierz rolę, na którą chcesz się przełączyć:",
+      "user": "Użytkownik",
+      "volunteer": "Wolontariusz",
+      "admin": "Administrator",
+      "moderator": "Moderator",
+      "manager": "Zarządca"
+    },
+    "language": {
+      "polish": "Polski",
+      "english": "Angielski",
+      "error_message": {
+        "refreshToken": "Wystąpił błąd, zaloguj się ponownie.",
+        "sameLanguage": "Jest to twój obecny język.",
+        "error": "Wystąpił błąd podczas zmiany języka."
+      },
+      "success": "Język został zmieniony."
+    },
+    "logged": "Zalogowano jako:",
+    "roles": {
+      "client_user": "Użytkownik",
+      "client_volunteer": "Wolontariusz",
+      "client_guest": "Gość",
+      "client_admin": "Adminstrator",
+      "client_manager": "Menadżer",
+      "client_moderator": "Moderator"
+    },
+    "eaa": {
+      "title": "Wydarzenia i ogłoszenia",
+      "events": "Wydarzenia",
+      "announcements": "Ogłoszenia",
+      "userPanel": "Panel użytkownika"
+    }
+  },
+  "logout": {
+    "error_message": "An error occurred while logging out.",
+    "info_message": "You have been successfully logged out."
+  },
+  "button": {
+    "cancel": "ANULUJ",
+    "ok": "OK"
+  }
+}

@@ -1,0 +1,65 @@
+server:
+  port: 8091
+spring:
+  flyway:
+    enabled: true
+  main:
+    allow-bean-definition-overriding: true
+  config:
+    import: optional:file:.env[.properties]
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      check_nullability: true
+    show-sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: ALWAYS
+
+  kafka:
+    producer:
+      bootstrap-servers: kafka:9092
+      key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      bootstrap-servers: kafka:9092
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.IntegerDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+
+
+  mail:
+    host: ${EMAIL_SENDER_HOST}
+    port: ${EMAIL_SENDER_PORT}
+    username: ${EMAIL_SENDER_USER}
+    password: ${EMAIL_SENDER_PASSWORD}
+    properties:
+      mail:
+        debug: true
+        transport:
+          protocol: smtp
+        smtp:
+          auth: true
+          starttls.enable: true
+
+jwt:
+  auth:
+    converter:
+      realm: client_app
+      resource-id: food_rescue
+      principle-attribute: preferred_username
+
+retry:
+  email:
+    max-attempts: 3
+    delay:
+      ms: 5000
+    multiplier: 2
+
+logging:
+  level:
+#    org.hibernate: DEBUG
+    org.springframework.orm.jpa: DEBUG
+    org.springframework.transaction: DEBUG

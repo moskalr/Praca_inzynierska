@@ -1,0 +1,10 @@
+.expanded-content {
+  white-space: normal;
+  word-break: break-all;
+}
+
+.truncated-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

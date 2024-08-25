@@ -1,0 +1,18 @@
+{
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "remember_me": "Remember me",
+    "sign_in": "Sign in",
+    "forgot_password": "Forgot password?",
+    "old_user": "Don't have an account? Join Us now!"
+  },
+  "success_message": {
+    "success": "Successfully logged in"
+  },
+  "error_message": {
+    "error": "Invalid username or password",
+    "default_error": "An error occured during logging in"
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "events": {
+    "filter": {
+      "title": "Filters",
+      "event": {
+        "section": "Event",
+        "title": "Title",
+        "state": "State",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "from": "From",
+        "to": "To",
+        "active": "Active",
+        "finished": "Finished"
+      },
+      "product": {
+        "section": "Product",
+        "name": "Product name",
+        "categories": "Categories"
+      },
+      "location": {
+        "text": "Enter city or street you are looking for",
+        "section": "Location",
+        "city": "City",
+        "street": "Street"
+      },
+      "time": {
+        "section": "Time frame"
+      },
+      "apply": "Apply",
+      "search": "Search",
+      "reset": "Reset"
+    },
+    "sortBy": {
+      "title": "Sort by",
+      "availableSlots": "Available slots",
+      "maxParticipants": "Max participants",
+      "availableFoodQuantity": "Available food",
+      "ascending": "Ascending",
+      "descending": "Descending"
+    },
+    "cards": {
+      "title": "Events",
+      "details": "Find Out More"
+    },
+    "tabs": {
+      "info": "Event Info",
+      "localization": "Localization",
+      "product": "Product",
+      "reservation": "Reservation",
+      "reservations": "Reservations",
+      "participants": "Participants",
+      "back": "Back To Events"
+    },
+    "reservations": {
+      "info": "Reservation details",
+      "maxParticipants": "Maximum participants number",
+      "availableSlots": "Available event slots",
+      "foodQuantity": "Base food quantity",
+      "foodUnit": "Food unit",
+      "availableFoodQuantity": "Available food qunatity",
+      "maxReservationQuantity": "Maximum food reservation quantity",
+      "date": "Date",
+      "notFound": "You don't have any reservation on this event",
+      "quantity": "Quantity",
+      "reservationState": "Reservation state",
+      "my": "My reservation",
+      "create": "Create reservation",
+      "edit": "Edit reservation",
+      "cancel": "Cancel reservation",
+      "setQuantity": "Set the food quantity you want to reserve, currently set value is",
+      "quantityDialogTitle": "Food reservation",
+      "setNewQuantity": "Set new food quantity you want to reserve, currently set value is",
+      "quantityChangeDialogTitle": "Food reservation edit",
+      "noReservations": "There are no reservations at this event yet",
+      "claim": "Claim"
+    },
+    "participants": {
+      "add": "Add participants",
+      "username": "Username",
+      "noParticipants": "There are no attendees at this event yet"
+    },
+    "fields": {
+      "title": "Title",
+      "content": "Content",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "maxParticipants": "Maximum participants number",
+      "availableSlots": "Available slots",
+      "foodQuantity": "Base food quantity",
+      "foodUnit": "Food unit",
+      "maxReservationQuantity": "Maximum food reservation quantity",
+      "date": "Date"
+    },
+    "info": {
+      "description": "Description",
+      "timeAndSlots": "Time and available slots",
+      "organizer": "About an organizer"
+    },
+    "address": {
+      "city": "City",
+      "street": "Street",
+      "streetNumber": "Building number",
+      "postalCode": "Postal code",
+      "latitude": "Latitude",
+      "longitude": "Longitude"
+    },
+    "product": {
+      "name": "Product name",
+      "category": "Product category"
+    },
+    "stepper": {
+      "required": "Required fields are marked *",
+      "organize": "Organize event",
+      "eventOrganization": "Event organization",
+      "createEvent": "Create event",
+      "createAddress": "Add address",
+      "createProduct": "Add product",
+      "cancel": "Cancel",
+      "address": "Address",
+      "product": "Product",
+      "event": "Event",
+      "next": "Next",
+      "back": "Back",
+      "save": "Submit",
+      "image": "Upload image",
+      "showOnMap": "Check provided address",
+      "backToAddress": "Close map",
+      "submitMap": "Submit location",
+      "createAddressInfo": "Fill the form with address info or select location on the map",
+      "confirmDialog": "Are you sure you want to organize this event ?"
+    },
+    "select": {
+      "foodUnit": "Please select food unit"
+    },
+    "button": {
+      "signUp": "Sign me Up",
+      "signOff": "Sign me Off"
+    },
+    "approve": "Approve",
+    "reject": "Reject",
+    "edit": "Edit event",
+    "callOff": "Call off the event",
+    "archive": "Archive event",
+    "activate": "Activate event",
+    "undo": "Revert event",
+    "dialog": {
+      "title": "Edit event",
+      "dateTitle": "Change date and time of the event",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "back": "Back to editing",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "logInFirst": "To take part in this event you have to log in first.",
+      "toLogIn": "Click here to move to login page."
+    },
+    "error": {
+      "notFound": "Event not found"
+    }
+  },
+  "announcements": {
+    "fields": {
+      "title": "Title",
+      "content": "Content"
+    },
+    "form": {
+      "create": {
+        "create": "Create Announcement",
+        "submit": "Publish",
+        "cancel": "Cancel"
+      }
+    },
+    "operations": {
+      "edit": "Edit",
+      "archive": "Archive",
+      "report": "Report"
+    },
+    "warningReported": "This announcement has been reported to moderator",
+    "reportConfirmation": "Are you sure you want to report this announcement to moderator?",
+    "archiveConfirmation": "Are you sure you want to archive this announcement?"
+  },
+  "map": {
+    "getAddress": "Get address"
+  },
+  "snackbar": {
+    "errorMessage": {
+      "signUp": "An error occured during signing up for the event",
+      "signOff": "An error occured during signing off from the event",
+      "eventUpdate": "An error occured during updating the event",
+      "eventCreate": "An error occured during creating the event",
+      "approved": "An error occured during approving the event",
+      "rejected": "An error occured during rejecting the event",
+      "canceled": "An error occured during canceling the event",
+      "archived": "An error occured during archiving the event",
+      "active": "An error occured during activating the event",
+      "eventNotFound": "Event Not Found",
+      "locationNotFound": "Could not find wanted location",
+      "stepper": {
+        "locationEmpty": "Address is missing"
+      },
+      "reservationCreate": "An error occured during creating reservation for this event",
+      "reservationClaim": "An error occured during claiming reservation for this event",
+      "reservationUpdate": "An error occured during updating reservation for this event",
+      "reservationCancel": "An error occured during cancelling reservation for this event",
+      "cloudinaryUpload": "Problem occurred with uploading the photo",
+      "announcementCreate": "An error occured during announcement creation",
+      "announcementUpdate": "An error occured during announcement update",
+      "announcementReport": "An error occured while reporting announcement",
+      "announcementArchive": "An error occured while archiving announcement",
+      "default": "An unexpected error occured"
+    },
+    "successMessage": {
+      "eventUpdate": "Event updated successfully",
+      "eventCreate": "Event created successfully",
+      "approved": "Event approved successfully",
+      "rejected": "Event rejected successfully",
+      "canceled": "Event canceled successfully",
+      "archived": "Event archived successfully",
+      "active": "Event activated successfully",
+      "addParticipant": "Participant successfully added to the event",
+      "reservationCreate": "Reservation created successfully",
+      "reservationUpdate": "Reservation updated successfully",
+      "reservationClaim": "Reservation claimed successfully",
+      "reservationCancel": "Reservation cancelled successfully",
+      "announcementCreate": "Announcement created successfully",
+      "announcementUpdate": "Announcement updated successfully",
+      "announcementReport": "Announcement reported to moderator successfully",
+      "announcementArchive": "Announcement archived successfully"
+    }
+  },
+  "objectDetails": {
+    "id": "ID",
+    "creator": "Created by",
+    "createdAt": "Created at",
+    "lastModifiedBy": "Last modified by",
+    "lastModifiedAt": "Last modified at"
+  },
+  "confirmationDialog.cancel": "No",
+  "confirmationDialog.confirm": "Yes",
+  "date": {
+    "months": {
+      "October": "October"
+    }
+  },
+  "units": {
+    "kilograms": "Kilograms",
+    "liters": "Liters",
+    "packs": "Packs",
+    "pieces": "Pieces",
+    "items": "Items"
+  },
+  "units2": {
+    "kilograms": "Kilograms",
+    "liters": "Liters",
+    "packs": "Packs",
+    "pieces": "Pieces",
+    "items": "Items"
+  },
+  "category": {
+    "vegetables": "Vegetables",
+    "fruits": "Fruits",
+    "dairy": "Dairy",
+    "proteins": "Proteins",
+    "sweets": "Sweets",
+    "beverages": "Beverages",
+    "grain": "Grain",
+    "prepared": "Prepared"
+  },
+  "states": {
+    "state": "State",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "canceled": "Canceled",
+    "reported": "Reported",
+    "hidden": "Hidden",
+    "banned": "Banned",
+    "confirmed": "Confirmed",
+    "archived": "Archived",
+    "finished": "Finished",
+    "claimed": "Claimed"
+  },
+  "account": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "username": "Username",
+    "email": "Email",
+    "strikes": "Warnings"
+  },
+  "validation": {
+    "required": "This field is required",
+    "minLength": "Not enough characters",
+    "maxLength": "Too much characters",
+    "pattern": "Provided data is invalid"
+  },
+  "sorting": {
+    "newest": "From newest",
+    "oldest": "From oldest"
+  },
+  "confirmationDialog": {
+    "cancelEvent": "Are you sure you want to cancel this event?",
+    "archiveEvent": "Are you sure you want to archive this event?",
+    "undoEvent": "Are you sure you want to revert this event to active state?",
+    "activateEvent": "Are you sure you want to make this event active?"
+  },
+  "userPanel": {
+    "creation": {
+      "event": {
+        "organizeEvent": "Organize an Event"
+      },
+      "announcement": {
+        "createAnnouncement": "Create Announcement"
+      }
+    },
+    "statistics": {
+      "my": "My Statistics",
+      "eventsCreated": "Created events",
+      "announcementsPublished": "Published announcements",
+      "reservationsMade": "Reservations created",
+      "eventsAttended": "Attended events",
+      "averageEventParticipants": "Average number of participants",
+      "totalEventsParticipants": "People on your events",
+      "reservationsByParticipants": "Reservations on your events",
+      "averageFoodGiven": "Average amount of food given",
+      "myClaimedFood": "My claimed food",
+      "totalFoodClaimed": "Total amount of food claimed",
+      "totalEventFood": "Total amount of food at events",
+      "mostCommonCategory": "Most common category",
+      "percentageOfSafedFood": "Safed food",
+      "more": "Show more",
+      "less": "Show less"
+    },
+    "events": {
+      "my": "My events",
+      "upcoming": "Upcoming events",
+      "emptyUpcoming": "There are no upcoming events",
+      "emptyPending": "There are no events pending for approval",
+      "emptyList": "You have not organized any event yet",
+      "warningRejected": "Event has been rejected",
+      "warningApproved": "Event has been approved"
+    },
+    "announcements": {
+      "my": "My announcements",
+      "emptyList": "You have not posted any announcement yet",
+      "emptyReported": "There are no announcements requiring your attention"
+    },
+    "moderator": {
+      "panel": "Moderator panel",
+      "pendingEvents": "Events pending for approval",
+      "reportedAnnouncements": "Announcements requiring attention"
+    },
+    "units": {
+      "kilograms": "Kilograms",
+      "liters": "Liters",
+      "packs": "Packs",
+      "pieces": "Pieces"
+    },
+    "category": {
+      "Vegetables": "Vegetables",
+      "Fruits": "Fruits",
+      "Dairy": "Dairy",
+      "Proteins": "Proteins",
+      "Sweets": "Sweets",
+      "Beverages": "Beverages",
+      "Grain": "Grain",
+      "Prepared": "Prepared"
+    }
+  },
+  "infiniteScroll": {
+    "end": "All results have been displayed"
+  },
+  "lists": {
+    "noResults": "No results have been found"
+  },
+  "errors": {
+    "location_error": "Your location has not been read"
+  },
+  "exception": {
+    "account": {
+      "already_a_participant": "Already a participant",
+      "strikes_limit": "Reached strikes limit"
+    },
+    "announcement": {
+      "archived": "Announcement is archived",
+      "reported": "Announcement has been reported"
+    },
+    "outdated_data": "Data has changed",
+    "event": {
+      "not_active": "Event is not active",
+      "pending": "Event is pending for approval",
+      "not_finished": "Event in not finished",
+      "not_pending": "Event is not in pending state",
+      "all_slots_taken": "All slots have been taken",
+      "slots_taken": "Cannot reduce max slots because they are taken"
+    },
+    "reservation": {
+      "quantity_larger_than_food_quantity": "Reserved quantity is larger than food quantity",
+      "not_active": "Reservation is not active",
+      "quantity_larger_than_limit": "Reservation quantity is larger than reservation limit",
+      "too_many_actions": "Too many reservation attempts"
+    }
+  }
+}

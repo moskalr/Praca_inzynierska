@@ -1,0 +1,33 @@
+{
+  "register": {
+    "title": "Sign up",
+    "username": "Username",
+    "first_name": "First name",
+    "surname": "Surname",
+    "email": "Email Address",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "language": "Language",
+    "polish": "Polish",
+    "english": "English",
+    "old_account": "Already have an account? Log in!",
+    "role": {
+      "title": "Role",
+      "user": "User",
+      "volunteer": "Volunteer"
+    }
+  },
+  "error_message": {
+    "main": "The form has been filled in incorrectly or is empty!",
+    "username": "Username is required and must be between 6 and 16 characters.",
+    "first_name": "First name is required and cannot exceed 32 characters.",
+    "surname": "Surname is required and cannot exceed 32 characters.",
+    "email": "Invalid email address.",
+    "password": "Password is required. It must contain at least: one uppercase letter, one lowercase letter, one digit, and one special character. It cannot contain whitespace and must be at least 8 characters long.",
+    "confirm_password": "Passwords must match.",
+    "error": "An error occurred while registering"
+  },
+  "success_message": {
+    "success": "The account has been successfully registered"
+  }
+}

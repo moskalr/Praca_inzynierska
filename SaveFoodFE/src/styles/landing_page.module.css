@@ -1,0 +1,27 @@
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rounded-map {
+  border-radius: 8px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.filter-dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.custom-select {
+  width: 300px;
+}

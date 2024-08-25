@@ -1,0 +1,14 @@
+{
+  "landing_page": {
+    "search": "Filter",
+    "fridges": "Social Fridges",
+    "events": "Events",
+    "select": "Select",
+    "filters_title": "Filters",
+    "distance": "Distance (km)",
+    "validNumber": "Enter a valid number (greater than 0.01km)",
+    "area_success": "No fridges within the specified distance",
+    "area_error": "An error occurred while displaying fridges in the area"
+  },
+  "grade": "Grade: "
+}
